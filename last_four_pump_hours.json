@@ -1,5 +1,28 @@
 [
   {
+    "_type": "BolusWizard", 
+    "bg": 0, 
+    "bg_target_high": 100, 
+    "correction_estimate": 0.0, 
+    "unknown_byte[10]": 0, 
+    "_description": "BolusWizard 2015-11-15T21:52:48 head[2], body[13] op[0x5b]", 
+    "timestamp": "2015-11-15T21:52:48", 
+    "_body": "055009195a0005000000000564", 
+    "carb_input": 5, 
+    "_head": "5b00", 
+    "unabsorbed_insulin_total": 0.0, 
+    "_byte[5]": 0, 
+    "unabsorbed_insulin_count": "??", 
+    "_byte[7]": 0, 
+    "_date": "b0f4150f0f", 
+    "bolus_estimate": 0.5, 
+    "unknown_byte[8]": 0, 
+    "carb_ratio": 9, 
+    "food_estimate": 0.5, 
+    "bg_target_low": 90, 
+    "sensitivity": 25
+  }, 
+  {
     "_type": "OldBolusWizardChange", 
     "stale": {
       "insulin_sensitivies": [
@@ -304,13 +327,5 @@
     "_body": "", 
     "_head": "2100", 
     "_date": "a2d2130f0f"
-  }, 
-  {
-    "_type": "Rewind", 
-    "_description": "Rewind 2015-11-15T17:12:16 head[2], body[0] op[0x21]", 
-    "timestamp": "2015-11-15T17:12:16", 
-    "_body": "", 
-    "_head": "2100", 
-    "_date": "90cc110f0f"
   }
 ]
