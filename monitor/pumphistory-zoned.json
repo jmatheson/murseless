@@ -1,5 +1,36 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2015-11-18T11:18:47 head[4], body[0] op[0x01]", 
+    "timestamp": "2015-11-18T11:18:47-08:00", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[8], body[0] op[0x5c]", 
+        "_body": "", 
+        "_head": "5c085064c0c0d2c0", 
+        "data": [
+          {
+            "amount": 2.0, 
+            "age": 100
+          }, 
+          {
+            "amount": 4.8, 
+            "age": 210
+          }
+        ], 
+        "_date": ""
+      }
+    ], 
+    "programmed": 2.9, 
+    "duration": 0, 
+    "amount": 2.9, 
+    "_head": "011d1d00", 
+    "type": "normal", 
+    "_date": "afd24b120f"
+  }, 
+  {
     "unknown_byte[8]": 0, 
     "_type": "BolusWizard", 
     "bg": 193, 
