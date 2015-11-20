@@ -1,0 +1,4 @@
+# this file should be placed in 
+machine github.com
+       login <yourusername>
+       password <yourpassword>
