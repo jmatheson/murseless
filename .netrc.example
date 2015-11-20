@@ -1,4 +1,5 @@
-# this file should be placed in 
+# this file should be placed in /home/pi/.netrc
+# this will allow you to backup and checkin your files without login
 machine github.com
        login <yourusername>
        password <yourpassword>
