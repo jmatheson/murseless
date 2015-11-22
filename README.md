@@ -1,6 +1,3 @@
-# openaps
-James Matheson APS
-
 This is my implementation of OpenAPS. 
 
 * create directory in your root called aps
