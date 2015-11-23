@@ -10,3 +10,6 @@ This is my implementation of OpenAPS.
 * Set up a contab and use crontab.example for the content of that file.
 * Set up your own repo on github by following these instructions https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
 * Set up a .netrc file and use the contents of https://github.com/jmatheson/openaps/blob/master/.netrc.example and just replace with your github information (this assumes you use github for backups)
+
+If you make edits to any files on github.com, be sure to pull them down to your local pi so there are no conflicts for backing up your pi. Use: ```git pull```
+
