@@ -4,8 +4,8 @@
     "system_time": "2015-11-23T19:39:05",
     "display_time": "2015-11-23T11:41:15",
     "glucose": 139,
-    "dateString": "undefined+0800",
-    "date": -36921686400000,
+    "dateString": "undefined-0800",
+    "date": -36921628800000,
     "type": "pumpdata",
     "device": "openaps://medtronic/pump/cgm"
   },
@@ -14,8 +14,8 @@
     "system_time": "2015-11-23T19:34:05",
     "display_time": "2015-11-23T11:36:15",
     "glucose": 133,
-    "dateString": "undefined+0800",
-    "date": -36921686400000,
+    "dateString": "undefined-0800",
+    "date": -36921628800000,
     "type": "pumpdata",
     "device": "openaps://medtronic/pump/cgm"
   },
@@ -24,8 +24,8 @@
     "system_time": "2015-11-23T19:29:06",
     "display_time": "2015-11-23T11:31:15",
     "glucose": 128,
-    "dateString": "undefined+0800",
-    "date": -36921686400000,
+    "dateString": "undefined-0800",
+    "date": -36921628800000,
     "type": "pumpdata",
     "device": "openaps://medtronic/pump/cgm"
   },
@@ -34,8 +34,8 @@
     "system_time": "2015-11-23T19:24:05",
     "display_time": "2015-11-23T11:26:15",
     "glucose": 123,
-    "dateString": "undefined+0800",
-    "date": -36921686400000,
+    "dateString": "undefined-0800",
+    "date": -36921628800000,
     "type": "pumpdata",
     "device": "openaps://medtronic/pump/cgm"
   },
@@ -44,8 +44,8 @@
     "system_time": "2015-11-23T19:19:05",
     "display_time": "2015-11-23T11:21:15",
     "glucose": 116,
-    "dateString": "undefined+0800",
-    "date": -36921686400000,
+    "dateString": "undefined-0800",
+    "date": -36921628800000,
     "type": "pumpdata",
     "device": "openaps://medtronic/pump/cgm"
   }
