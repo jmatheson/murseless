@@ -3,6 +3,42 @@
     "programmed": 1.0, 
     "_type": "Bolus", 
     "type": "normal", 
+    "_description": "Bolus 2015-11-26T03:02:01 head[4], body[0] op[0x01]", 
+    "duration": 0, 
+    "timestamp": "2015-11-26T03:02:01", 
+    "_body": "", 
+    "_head": "010a0a00", 
+    "amount": 1.0, 
+    "_date": "81c2431a0f"
+  }, 
+  {
+    "programmed": 3.0, 
+    "_type": "Bolus", 
+    "type": "normal", 
+    "_description": "Bolus 2015-11-26T01:46:55 head[4], body[0] op[0x01]", 
+    "duration": 0, 
+    "timestamp": "2015-11-26T01:46:55", 
+    "_body": "", 
+    "_head": "011e1e00", 
+    "amount": 3.0, 
+    "_date": "b7ee411a0f"
+  }, 
+  {
+    "programmed": 6.0, 
+    "_type": "Bolus", 
+    "type": "normal", 
+    "_description": "Bolus 2015-11-26T01:06:44 head[4], body[0] op[0x01]", 
+    "duration": 0, 
+    "timestamp": "2015-11-26T01:06:44", 
+    "_body": "", 
+    "_head": "013c3c00", 
+    "amount": 6.0, 
+    "_date": "acc6411a0f"
+  }, 
+  {
+    "programmed": 1.0, 
+    "_type": "Bolus", 
+    "type": "normal", 
     "_description": "Bolus 2015-11-26T00:44:53 head[4], body[0] op[0x01]", 
     "duration": 0, 
     "timestamp": "2015-11-26T00:44:53", 
@@ -1971,29 +2007,5 @@
     "_body": "051542424201000004b001e02802d03c002802d03c00b01801082501182703000001020c00e8000000", 
     "_head": "6d", 
     "_date": "b48f"
-  }, 
-  {
-    "_type": "MResultTotals", 
-    "_description": "MResultTotals 2015-11-21T00:00:00 head[5], body[0] op[0x07]", 
-    "timestamp": "2015-11-21T00:00:00", 
-    "_body": "", 
-    "_head": "07000004b0", 
-    "_date": "b48f"
-  }, 
-  {
-    "_type": "NewTimeSet", 
-    "_description": "NewTimeSet 2015-11-21T01:56:00 head[2], body[0] op[0x18]", 
-    "timestamp": "2015-11-21T01:56:00", 
-    "_body": "", 
-    "_head": "1800", 
-    "_date": "80f801150f"
-  }, 
-  {
-    "_type": "ChangeTime", 
-    "_description": "ChangeTime 2015-11-20T23:56:37 head[2], body[0] op[0x17]", 
-    "timestamp": "2015-11-20T23:56:37", 
-    "_body": "", 
-    "_head": "1700", 
-    "_date": "a5f817140f"
   }
 ]
