@@ -1,5 +1,31 @@
 [
   {
+    "_type": "Model522ResultTotals",
+    "_description": "Model522ResultTotals 2015-12-11T00:00:00 head[1], body[41] op[0x6d]",
+    "timestamp": "2015-12-11T00:00:00-08:00",
+    "_body": "05005a5a5a01000005d804a04f013815002f01381500cc41006c2300000004030001000c00e8000000",
+    "_head": "6d",
+    "_date": "ca0f",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Model522ResultTotals",
+    "created_at": "2015-12-11T00:00:00-08:00",
+    "enteredBy": "openaps://medtronic/722",
+    "eventType": "Note",
+    "notes": "Model522ResultTotals 722 "
+  },
+  {
+    "_type": "MResultTotals",
+    "_description": "MResultTotals 2015-12-11T00:00:00 head[5], body[0] op[0x07]",
+    "timestamp": "2015-12-11T00:00:00-08:00",
+    "_body": "",
+    "_head": "07000005d8",
+    "_date": "ca0f",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/MResultTotals",
+    "created_at": "2015-12-11T00:00:00-08:00",
+    "enteredBy": "openaps://medtronic/722",
+    "eventType": "Note",
+    "notes": "MResultTotals 722 "
+  },
+  {
     "duration": "0",
     "bolus": {
       "_type": "Bolus",
