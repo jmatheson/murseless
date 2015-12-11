@@ -9,7 +9,11 @@
   "low_reservoir_warn_type": 0, 
   "insulinConcentration": 100, 
   "audio_bolus_enable": true, 
+<<<<<<< HEAD
   "variable_bolus_enable": false, 
+=======
+  "variable_bolus_enable": true, 
+>>>>>>> f40012bbf676deddd4b516f09acc0a6ca3d7c8f1
   "alarm": {
     "volume": -1, 
     "mode": 1
