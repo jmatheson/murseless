@@ -2,16 +2,6 @@
   {
     "direction": "Flat", 
     "noise": 1, 
-<<<<<<< HEAD
-    "dateString": "Tue Dec 15 21:40:55 PST 2015", 
-    "sgv": 152, 
-    "date": 1450244455000, 
-    "unfiltered": 158368, 
-    "rssi": 192, 
-    "device": "dexcom", 
-    "filtered": 160320, 
-    "_id": "5670f99707f60885b3440538", 
-=======
     "dateString": "Tue Dec 15 19:05:55 PST 2015", 
     "sgv": 100, 
     "date": 1450235155000, 
@@ -20,22 +10,11 @@
     "device": "dexcom", 
     "filtered": 113536, 
     "_id": "5670d54607f60885b344051c", 
->>>>>>> aa64a10be4fe3d4c39afad63c8ab1dcbd47bb693
     "type": "sgv"
   }, 
   {
     "direction": "Flat", 
     "noise": 1, 
-<<<<<<< HEAD
-    "dateString": "Tue Dec 15 21:35:55 PST 2015", 
-    "sgv": 152, 
-    "date": 1450244155000, 
-    "unfiltered": 158464, 
-    "rssi": 191, 
-    "device": "dexcom", 
-    "filtered": 163456, 
-    "_id": "5670f86c07f60885b3440537", 
-=======
     "dateString": "Tue Dec 15 19:00:58 PST 2015", 
     "sgv": 95, 
     "date": 1450234858000, 
@@ -44,22 +23,11 @@
     "device": "dexcom", 
     "filtered": 110320, 
     "_id": "5670d41407f60885b3440519", 
->>>>>>> aa64a10be4fe3d4c39afad63c8ab1dcbd47bb693
     "type": "sgv"
   }, 
   {
     "direction": "Flat", 
     "noise": 1, 
-<<<<<<< HEAD
-    "dateString": "Tue Dec 15 21:30:55 PST 2015", 
-    "sgv": 156, 
-    "date": 1450243855000, 
-    "unfiltered": 161184, 
-    "rssi": 188, 
-    "device": "dexcom", 
-    "filtered": 166176, 
-    "_id": "5670f75807f60885b3440536", 
-=======
     "dateString": "Tue Dec 15 18:55:56 PST 2015", 
     "sgv": 89, 
     "date": 1450234556000, 
@@ -68,74 +36,11 @@
     "device": "dexcom", 
     "filtered": 109648, 
     "_id": "5670d2e607f60885b3440518", 
->>>>>>> aa64a10be4fe3d4c39afad63c8ab1dcbd47bb693
     "type": "sgv"
   }, 
   {
     "direction": "Flat", 
     "noise": 1, 
-<<<<<<< HEAD
-    "dateString": "Tue Dec 15 21:25:55 PST 2015", 
-    "sgv": 160, 
-    "date": 1450243555000, 
-    "unfiltered": 163680, 
-    "rssi": 183, 
-    "device": "dexcom", 
-    "filtered": 166880, 
-    "_id": "5670f60707f60885b3440535", 
-    "type": "sgv"
-  }, 
-  {
-    "direction": "SingleDown", 
-    "noise": 1, 
-    "dateString": "Tue Dec 15 21:05:55 PST 2015", 
-    "sgv": 164, 
-    "date": 1450242355000, 
-    "unfiltered": 167104, 
-    "rssi": 193, 
-    "device": "dexcom", 
-    "filtered": 178272, 
-    "_id": "5670f18007f60885b3440534", 
-    "type": "sgv"
-  }, 
-  {
-    "direction": "DoubleDown", 
-    "noise": 1, 
-    "dateString": "Tue Dec 15 21:00:55 PST 2015", 
-    "sgv": 171, 
-    "date": 1450242055000, 
-    "unfiltered": 172320, 
-    "rssi": 188, 
-    "device": "dexcom", 
-    "filtered": 191648, 
-    "_id": "5670f03907f60885b3440533", 
-    "type": "sgv"
-  }, 
-  {
-    "direction": "DoubleDown", 
-    "noise": 1, 
-    "dateString": "Tue Dec 15 20:55:55 PST 2015", 
-    "sgv": 184, 
-    "date": 1450241755000, 
-    "unfiltered": 181888, 
-    "rssi": 189, 
-    "device": "dexcom", 
-    "filtered": 205952, 
-    "_id": "5670ef2307f60885b3440532", 
-    "type": "sgv"
-  }, 
-  {
-    "direction": "SingleDown", 
-    "noise": 1, 
-    "dateString": "Tue Dec 15 20:50:55 PST 2015", 
-    "sgv": 204, 
-    "date": 1450241455000, 
-    "unfiltered": 196608, 
-    "rssi": 173, 
-    "device": "dexcom", 
-    "filtered": 217824, 
-    "_id": "5670eddb07f60885b3440531", 
-=======
     "dateString": "Tue Dec 15 18:50:55 PST 2015", 
     "sgv": 84, 
     "date": 1450234255000, 
@@ -196,35 +101,11 @@
     "device": "dexcom", 
     "filtered": 127792, 
     "_id": "5670cd0b07f60885b3440513", 
->>>>>>> aa64a10be4fe3d4c39afad63c8ab1dcbd47bb693
     "type": "sgv"
   }, 
   {
     "direction": "FortyFiveDown", 
     "noise": 1, 
-<<<<<<< HEAD
-    "dateString": "Tue Dec 15 20:45:55 PST 2015", 
-    "sgv": 225, 
-    "date": 1450241155000, 
-    "unfiltered": 211968, 
-    "rssi": 174, 
-    "device": "dexcom", 
-    "filtered": 224992, 
-    "_id": "5670ecb007f60885b3440530", 
-    "type": "sgv"
-  }, 
-  {
-    "direction": "Flat", 
-    "noise": 1, 
-    "dateString": "Tue Dec 15 20:40:55 PST 2015", 
-    "sgv": 238, 
-    "date": 1450240855000, 
-    "unfiltered": 221312, 
-    "rssi": 172, 
-    "device": "dexcom", 
-    "filtered": 226848, 
-    "_id": "5670eb9a07f60885b344052f", 
-=======
     "dateString": "Tue Dec 15 18:25:56 PST 2015", 
     "sgv": 105, 
     "date": 1450232756000, 
@@ -246,7 +127,6 @@
     "device": "dexcom", 
     "filtered": 135968, 
     "_id": "5670cab107f60885b3440511", 
->>>>>>> aa64a10be4fe3d4c39afad63c8ab1dcbd47bb693
     "type": "sgv"
   }
 ]
