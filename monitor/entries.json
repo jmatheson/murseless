@@ -1,122 +1,72 @@
 [
   {
     "direction": "Flat", 
-    "noise": 1, 
-    "dateString": "Tue Dec 15 22:35:55 PST 2015", 
     "sgv": 189, 
     "date": 1450247755000, 
-    "unfiltered": 185568, 
-    "rssi": 190, 
     "device": "dexcom", 
-    "filtered": 185760, 
     "type": "sgv"
   }, 
   {
     "direction": "Flat", 
-    "noise": 1, 
-    "dateString": "Tue Dec 15 22:30:55 PST 2015", 
     "sgv": 190, 
     "date": 1450247455000, 
-    "unfiltered": 186112, 
-    "rssi": 190, 
     "device": "dexcom", 
-    "filtered": 183232, 
     "type": "sgv"
   }, 
   {
     "direction": "FortyFiveUp", 
-    "noise": 1, 
-    "dateString": "Tue Dec 15 22:25:55 PST 2015", 
     "sgv": 189, 
     "date": 1450247155000, 
-    "unfiltered": 185152, 
-    "rssi": 190, 
     "device": "dexcom", 
-    "filtered": 179040, 
     "type": "sgv"
   }, 
   {
     "direction": "FortyFiveUp", 
-    "noise": 1, 
-    "dateString": "Tue Dec 15 22:20:55 PST 2015", 
     "sgv": 184, 
     "date": 1450246855000, 
-    "unfiltered": 181664, 
-    "rssi": 190, 
     "device": "dexcom", 
-    "filtered": 173856, 
     "type": "sgv"
   }, 
   {
     "direction": "FortyFiveUp", 
-    "noise": 1, 
-    "dateString": "Tue Dec 15 22:15:55 PST 2015", 
     "sgv": 178, 
     "date": 1450246555000, 
-    "unfiltered": 177056, 
-    "rssi": 190, 
     "device": "dexcom", 
-    "filtered": 168864, 
     "type": "sgv"
   }, 
   {
     "direction": "Flat", 
-    "noise": 1, 
-    "dateString": "Tue Dec 15 22:10:55 PST 2015", 
     "sgv": 172, 
     "date": 1450246255000, 
-    "unfiltered": 172512, 
-    "rssi": 188, 
     "device": "dexcom", 
-    "filtered": 165184, 
     "type": "sgv"
   }, 
   {
     "direction": "Flat", 
-    "noise": 1, 
-    "dateString": "Tue Dec 15 22:05:55 PST 2015", 
     "sgv": 165, 
     "date": 1450245955000, 
-    "unfiltered": 167392, 
-    "rssi": 190, 
     "device": "dexcom", 
-    "filtered": 163072, 
     "type": "sgv"
   }, 
   {
     "direction": "Flat", 
-    "noise": 1, 
-    "dateString": "Tue Dec 15 22:00:55 PST 2015", 
     "sgv": 159, 
     "date": 1450245655000, 
-    "unfiltered": 163008, 
-    "rssi": 191, 
     "device": "dexcom", 
-    "filtered": 161632, 
     "type": "sgv"
   }, 
   {
     "direction": "Flat", 
-    "noise": 1, 
-    "dateString": "Tue Dec 15 21:55:55 PST 2015", 
     "sgv": 156, 
     "date": 1450245355000, 
-    "unfiltered": 160896, 
-    "rssi": 192, 
     "device": "dexcom", 
-    "filtered": 160032, 
     "type": "sgv"
   }, 
   {
     "direction": "Flat", 
-    "noise": 1, 
-    "dateString": "Tue Dec 15 21:50:55 PST 2015", 
     "sgv": 157, 
     "date": 1450245055000, 
-    "unfiltered": 162144, 
-    "rssi": 195, 
     "device": "dexcom", 
-    "filtered": 158592, 
     "type": "sgv"
   }
 ]
