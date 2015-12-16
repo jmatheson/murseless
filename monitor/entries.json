@@ -9,7 +9,6 @@
     "rssi": 190, 
     "device": "dexcom", 
     "filtered": 185760, 
-    "_id": "5671068207f60885b3440543", 
     "type": "sgv"
   }, 
   {
@@ -22,7 +21,6 @@
     "rssi": 190, 
     "device": "dexcom", 
     "filtered": 183232, 
-    "_id": "5671054e07f60885b3440542", 
     "type": "sgv"
   }, 
   {
@@ -35,7 +33,6 @@
     "rssi": 190, 
     "device": "dexcom", 
     "filtered": 179040, 
-    "_id": "5671042507f60885b3440541", 
     "type": "sgv"
   }, 
   {
@@ -48,7 +45,6 @@
     "rssi": 190, 
     "device": "dexcom", 
     "filtered": 173856, 
-    "_id": "567102f507f60885b3440540", 
     "type": "sgv"
   }, 
   {
@@ -61,7 +57,6 @@
     "rssi": 190, 
     "device": "dexcom", 
     "filtered": 168864, 
-    "_id": "5671022507f60885b344053f", 
     "type": "sgv"
   }, 
   {
@@ -74,7 +69,6 @@
     "rssi": 188, 
     "device": "dexcom", 
     "filtered": 165184, 
-    "_id": "5671009d07f60885b344053e", 
     "type": "sgv"
   }, 
   {
@@ -87,7 +81,6 @@
     "rssi": 190, 
     "device": "dexcom", 
     "filtered": 163072, 
-    "_id": "5670ff6a07f60885b344053d", 
     "type": "sgv"
   }, 
   {
@@ -100,7 +93,6 @@
     "rssi": 191, 
     "device": "dexcom", 
     "filtered": 161632, 
-    "_id": "5670fe4607f60885b344053c", 
     "type": "sgv"
   }, 
   {
@@ -113,7 +105,6 @@
     "rssi": 192, 
     "device": "dexcom", 
     "filtered": 160032, 
-    "_id": "5670fd1507f60885b344053b", 
     "type": "sgv"
   }, 
   {
@@ -126,7 +117,6 @@
     "rssi": 195, 
     "device": "dexcom", 
     "filtered": 158592, 
-    "_id": "5670fbee07f60885b344053a", 
     "type": "sgv"
   }
 ]
