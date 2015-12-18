@@ -7,7 +7,7 @@
   "bg": 77, 
   "temp": "percent", 
   "snoozeBG": 58, 
-  "timestamp": "2015-12-18T15:52:26.430765", 
+  "timestamp": "2015-12-18T15:53:14.547513", 
   "rate": 101, 
   "reason": "Eventual BG 35<90, no temp, setting -1.61U/hr", 
   "eventualBG": 35, 
