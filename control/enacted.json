@@ -4,14 +4,14 @@
     "rate": 4, 
     "temp": "absolute"
   }, 
-  "bg": 125, 
+  "bg": 126, 
   "temp": "percent", 
-  "snoozeBG": 136, 
-  "timestamp": "2015-12-17T16:16:30.207673", 
+  "snoozeBG": 135, 
+  "timestamp": "2015-12-17T16:20:26.092201", 
   "rate": 101, 
-  "reason": "Eventual BG 136>100, temp 101<4U/hr", 
-  "eventualBG": 136, 
+  "reason": "Eventual BG 135>100, temp 101<4U/hr", 
+  "eventualBG": 135, 
   "recieved": false, 
   "duration": 0, 
-  "tick": "+4"
+  "tick": "+1"
 }
