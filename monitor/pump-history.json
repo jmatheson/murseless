@@ -1,5 +1,37 @@
 [
   {
+    "_type": "BolusWizard", 
+    "bg": 119, 
+    "bg_target_high": 100, 
+    "correction_estimate": 0.7, 
+    "unknown_byte[10]": 0, 
+    "_description": "BolusWizard 2015-12-18T09:07:07 head[2], body[13] op[0x5b]", 
+    "timestamp": "2015-12-18T09:07:07", 
+    "_body": "005009195a0700000000000764", 
+    "carb_input": 0, 
+    "_head": "5b77", 
+    "unabsorbed_insulin_total": 0.0, 
+    "_byte[5]": 7, 
+    "unabsorbed_insulin_count": "??", 
+    "_byte[7]": 0, 
+    "_date": "c70709120f", 
+    "bolus_estimate": 0.7, 
+    "unknown_byte[8]": 0, 
+    "carb_ratio": 9, 
+    "food_estimate": 0.0, 
+    "bg_target_low": 90, 
+    "sensitivity": 25
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2015-12-18T09:07:05 head[2], body[0] op[0x0a]", 
+    "timestamp": "2015-12-18T09:07:05", 
+    "_body": "", 
+    "_head": "0a77", 
+    "amount": 119, 
+    "_date": "c50729120f"
+  }, 
+  {
     "_type": "Model522ResultTotals", 
     "_description": "Model522ResultTotals 2015-12-18T00:00:00 head[1], body[41] op[0x6d]", 
     "timestamp": "2015-12-18T00:00:00", 
@@ -1722,37 +1754,5 @@
     "_head": "01151500", 
     "amount": 2.1, 
     "_date": "f72948070f"
-  }, 
-  {
-    "_type": "BolusWizard", 
-    "bg": 154, 
-    "bg_target_high": 100, 
-    "correction_estimate": 0.5, 
-    "unknown_byte[10]": 0, 
-    "_description": "BolusWizard 2015-12-07T08:41:55 head[2], body[13] op[0x5b]", 
-    "timestamp": "2015-12-07T08:41:55", 
-    "_body": "005009195a1500000000001564", 
-    "carb_input": 0, 
-    "_head": "5b9a", 
-    "unabsorbed_insulin_total": 0.0, 
-    "_byte[5]": 21, 
-    "unabsorbed_insulin_count": "??", 
-    "_byte[7]": 0, 
-    "_date": "f72908070f", 
-    "bolus_estimate": 2.1, 
-    "unknown_byte[8]": 0, 
-    "carb_ratio": 9, 
-    "food_estimate": 0.0, 
-    "bg_target_low": 90, 
-    "sensitivity": 25
-  }, 
-  {
-    "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2015-12-07T08:41:53 head[2], body[0] op[0x0a]", 
-    "timestamp": "2015-12-07T08:41:53", 
-    "_body": "", 
-    "_head": "0a9a", 
-    "amount": 154, 
-    "_date": "f52928070f"
   }
 ]
