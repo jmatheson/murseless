@@ -1,0 +1,22 @@
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+NIGHTSCOUT_HOST=https://diabeticguy.azurewebsites.net
+API_SECRET=7defc6888819180432736ddab3a77c730cd4febe
+IFTTT_TRIGGER=https://maker.ifttt.com/trigger/aps/with/key/b8dglCW0jeLhzlTNCjUU0T
+
+# Kill any old processes lying around for over 10 minutes
+* * * * * killall -g --older-than 10m openaps
+
+# Upload any new updates updates to our display
+#* * * * * cd /home/pi/aps && ( ps aux | grep -v grep | grep -q 'openaps ' && echo OpenAPS already running || openaps upload ) 2>&1 | tee -a /var/log/openaps/uploader.log
+
+# Keep our backup up to date on github
+* * * * * cd /home/pi/aps && oref0-reset-git && git add . && git commit -m "update" && git push origin master
+
+# This is until I get my own CGM running
+* * * * * cd /home/pi/aps/monitor && wget -q https://raw.githubusercontent.com/jasoncalabrese/indy/master/monitor/glucose-ns.json -O glucose.json
+
+# Run all components of loop
+* * * * * cd /home/pi/aps && openaps preflight && openaps history && openaps gather && openaps latest-ns-treatment-time && openaps format-latest-nightscout-treatments && openaps upload
+# Then do this when we are ready to go live 
+#&& openaps enact
