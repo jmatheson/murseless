@@ -1,0 +1,25 @@
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+# Kill any old processes lying around for over 10 minutes
+* * * * * . $HOME/.profile; killall -g --older-than 10m openaps
+
+# Backup this cron file once an hour for save to repo
+* * * * * . $HOME/.profile; cd $HOME/aps && crontab -l > crontab
+
+# This is until I get my own CGM running, download sugars from source
+* * * * * . $HOME/.profile; cd /$HOME/$OPENAPS_DIR/monitor && wget -q $CGM_JSON -O entries.json && ns-upload-entries && cp entries.json glucose.json
+
+# Run all components of loop
+* * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR && openaps preflight && openaps history && openaps gather && openaps latest-ns-treatment-time && openaps format-latest-nightscout-treatments && openaps upload && oref0-reset-git && git add . && git commit -m "update" && git push origin master && openaps enact
+# Then do this when we are ready to go live 
+# && openaps enact
+
+# Reset the date stamp to match pump as needed
+* * * * * . $HOME/.profile; ./bin/mm-set-rtc.py set --set $(date +%FT%T)
+
+# reset git in case of corruption
+# * * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR && git fsck 
+# * * * * * . $HOME/.profile; cd $HOME && sudo /bin/rm -r $OPENAPS_DIR && cd aps && git init && git remote add origin $OPENAPS_REPO && git pull $OPENAPS_REPO
+
+# if new pi we wont have openaps installed, so go ahead and do that, and also update to the latest dev version because we are hot like that
+* * * * * [ ! -f /usr/local/bin/openaps ] && curl -s https://raw.githubusercontent.com/openaps/docs/master/scripts/quick-packages.sh | bash - && curl -s https://raw.githubusercontent.com/openaps/docs/master/scripts/quick-src.sh | bash -
