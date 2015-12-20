@@ -1,5 +1,44 @@
 [
   {
+    "direction": "Flat", 
+    "noise": 1, 
+    "dateString": "Sun Dec 20 08:00:02 PST 2015", 
+    "sgv": 147, 
+    "date": 1450627202000, 
+    "unfiltered": 148672, 
+    "rssi": 192, 
+    "device": "dexcom", 
+    "filtered": 152832, 
+    "_id": "5676d10107f60885b3440a5c", 
+    "type": "sgv"
+  }, 
+  {
+    "direction": "Flat", 
+    "noise": 1, 
+    "dateString": "Sun Dec 20 07:55:02 PST 2015", 
+    "sgv": 150, 
+    "date": 1450626902000, 
+    "unfiltered": 150784, 
+    "rssi": 191, 
+    "device": "dexcom", 
+    "filtered": 153984, 
+    "_id": "5676cfc407f60885b3440a5b", 
+    "type": "sgv"
+  }, 
+  {
+    "direction": "Flat", 
+    "noise": 1, 
+    "dateString": "Sun Dec 20 07:50:02 PST 2015", 
+    "sgv": 153, 
+    "date": 1450626602000, 
+    "unfiltered": 153696, 
+    "rssi": 186, 
+    "device": "dexcom", 
+    "filtered": 152608, 
+    "_id": "5676ceb207f60885b3440a5a", 
+    "type": "sgv"
+  }, 
+  {
     "direction": "FortyFiveUp", 
     "noise": 1, 
     "dateString": "Sun Dec 20 07:45:03 PST 2015", 
@@ -88,45 +127,6 @@
     "device": "dexcom", 
     "filtered": 90192, 
     "_id": "5676c64407f60885b3440a53", 
-    "type": "sgv"
-  }, 
-  {
-    "direction": "Flat", 
-    "noise": 1, 
-    "dateString": "Sun Dec 20 07:10:05 PST 2015", 
-    "sgv": 75, 
-    "date": 1450624205000, 
-    "unfiltered": 91504, 
-    "rssi": 194, 
-    "device": "dexcom", 
-    "filtered": 91312, 
-    "_id": "5676c51b07f60885b3440a50", 
-    "type": "sgv"
-  }, 
-  {
-    "direction": "Flat", 
-    "noise": 1, 
-    "dateString": "Sun Dec 20 07:05:03 PST 2015", 
-    "sgv": 65, 
-    "date": 1450623903000, 
-    "unfiltered": 89296, 
-    "rssi": 172, 
-    "device": "dexcom", 
-    "filtered": 93520, 
-    "_id": "5676c3f007f60885b3440a4f", 
-    "type": "sgv"
-  }, 
-  {
-    "direction": "Flat", 
-    "noise": 1, 
-    "dateString": "Sun Dec 20 07:00:03 PST 2015", 
-    "sgv": 69, 
-    "date": 1450623603000, 
-    "unfiltered": 92608, 
-    "rssi": 190, 
-    "device": "dexcom", 
-    "filtered": 96432, 
-    "_id": "5676c2c207f60885b3440a4e", 
     "type": "sgv"
   }
 ]
