@@ -1,5 +1,44 @@
 [
   {
+    "direction": "SingleUp", 
+    "noise": 1, 
+    "dateString": "Sat Dec 19 19:05:05 PST 2015", 
+    "sgv": 169, 
+    "date": 1450580705000, 
+    "unfiltered": 161120, 
+    "rssi": 185, 
+    "device": "dexcom", 
+    "filtered": 146176, 
+    "_id": "56761b3507f60885b34409bc", 
+    "type": "sgv"
+  }, 
+  {
+    "direction": "SingleUp", 
+    "noise": 1, 
+    "dateString": "Sat Dec 19 19:00:05 PST 2015", 
+    "sgv": 160, 
+    "date": 1450580405000, 
+    "unfiltered": 153888, 
+    "rssi": 182, 
+    "device": "dexcom", 
+    "filtered": 135776, 
+    "_id": "56761a0307f60885b34409bb", 
+    "type": "sgv"
+  }, 
+  {
+    "direction": "FortyFiveUp", 
+    "noise": 1, 
+    "dateString": "Sat Dec 19 18:55:05 PST 2015", 
+    "sgv": 139, 
+    "date": 1450580105000, 
+    "unfiltered": 137536, 
+    "rssi": 179, 
+    "device": "dexcom", 
+    "filtered": 125536, 
+    "_id": "567618e407f60885b34409ba", 
+    "type": "sgv"
+  }, 
+  {
     "direction": "FortyFiveUp", 
     "noise": 1, 
     "dateString": "Sat Dec 19 18:45:05 PST 2015", 
@@ -88,45 +127,6 @@
     "device": "dexcom", 
     "filtered": 101776, 
     "_id": "56760f7b07f60885b34409b3", 
-    "type": "sgv"
-  }, 
-  {
-    "direction": "Flat", 
-    "noise": 1, 
-    "dateString": "Sat Dec 19 18:10:05 PST 2015", 
-    "sgv": 90, 
-    "date": 1450577405000, 
-    "unfiltered": 99152, 
-    "rssi": 181, 
-    "device": "dexcom", 
-    "filtered": 106048, 
-    "_id": "56760e4a07f60885b34409b2", 
-    "type": "sgv"
-  }, 
-  {
-    "direction": "Flat", 
-    "noise": 1, 
-    "dateString": "Sat Dec 19 18:05:05 PST 2015", 
-    "sgv": 95, 
-    "date": 1450577105000, 
-    "unfiltered": 103328, 
-    "rssi": 176, 
-    "device": "dexcom", 
-    "filtered": 109648, 
-    "_id": "56760d3607f60885b34409b1", 
-    "type": "sgv"
-  }, 
-  {
-    "direction": "Flat", 
-    "noise": 1, 
-    "dateString": "Sat Dec 19 18:00:05 PST 2015", 
-    "sgv": 101, 
-    "date": 1450576805000, 
-    "unfiltered": 108016, 
-    "rssi": 178, 
-    "device": "dexcom", 
-    "filtered": 112512, 
-    "_id": "56760bf107f60885b34409b0", 
     "type": "sgv"
   }
 ]
