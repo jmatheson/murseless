@@ -1,4 +1,4 @@
-This is my implementation of OpenAPS. 
+This is my implementation of OpenAPS. This assumes you are working on a Mac with OSX 10.11 El Capitan
 * Set up your own repo on github by following these instructions  [https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/]
 * Reformat your micro SD card with SDFormatter
 * Install NOOBS [https://www.raspberrypi.org/downloads/noobs/]
