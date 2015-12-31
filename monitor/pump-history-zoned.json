@@ -1,6 +1,18 @@
 [
   {
     "_type": "Bolus", 
+    "_description": "Bolus 2015-12-30T20:56:04 head[4], body[0] op[0x01]", 
+    "timestamp": "2015-12-30T20:56:04-08:00", 
+    "_body": "", 
+    "programmed": 1.0, 
+    "_head": "010a0a00", 
+    "amount": 1.0, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "c438341e0f"
+  }, 
+  {
+    "_type": "Bolus", 
     "_description": "Bolus 2015-12-30T19:48:37 head[4], body[0] op[0x01]", 
     "timestamp": "2015-12-30T19:48:37-08:00", 
     "_body": "", 
@@ -2010,14 +2022,5 @@
     "bolus_estimate": 3.3, 
     "_date": "ea1f12180f", 
     "bg_target_low": 90
-  }, 
-  {
-    "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2015-12-24T18:31:24 head[2], body[0] op[0x0a]", 
-    "timestamp": "2015-12-24T18:31:24-08:00", 
-    "_body": "", 
-    "_head": "0ab3", 
-    "amount": 179, 
-    "_date": "d81f32180f"
   }
 ]
