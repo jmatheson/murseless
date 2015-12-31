@@ -10,7 +10,7 @@ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 * * * * * . $HOME/.profile; cd /$HOME/$OPENAPS_DIR/monitor && wget -q $CGM_JSON -O entries.json && ns-upload-entries && cp entries.json glucose.json
 
 # Run all components of loop
-#* * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR && openaps preflight && openaps history && openaps gather && openaps latest-ns-treatment-time && openaps format-latest-nightscout-treatments && openaps upload && oref0-reset-git && git add . && git commit -m "update" && git push origin master && openaps enact
+* * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR && openaps preflight && openaps history && openaps gather && openaps latest-ns-treatment-time && openaps format-latest-nightscout-treatments && openaps upload && oref0-reset-git && git add . && git commit -m "update" && git push origin master && openaps enact
 # Then do this when we are ready to go live 
 # && openaps enact
 
