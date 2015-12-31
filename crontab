@@ -15,4 +15,4 @@ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 # && openaps enact
 
 # Reset the date stamp to match pump as needed
-* * * * * . $HOME/.profile; ./bin/mm-set-rtc.py set --set $(date +%FT%T)
+* * * * * . $HOME/.profile; mm-set-rtc.py set --set $(date +%FT%T)
