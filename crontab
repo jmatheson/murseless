@@ -16,10 +16,3 @@ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
 # Reset the date stamp to match pump as needed
 * * * * * . $HOME/.profile; ./bin/mm-set-rtc.py set --set $(date +%FT%T)
-
-# reset git in case of corruption
-# * * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR && git fsck 
-# * * * * * . $HOME/.profile; cd $HOME && sudo /bin/rm -r $OPENAPS_DIR && cd aps && git init && git remote add origin $OPENAPS_REPO && git pull $OPENAPS_REPO
-
-# if new pi we wont have openaps installed, so go ahead and do that, and also update to the latest dev version because we are hot like that
-* * * * * [ ! -f /usr/local/bin/openaps ] && cd $HOME && sudo cp wpa_supplicant.conf /etc/wpa_supplicant/wpa_supplicant.conf && curl -s https://raw.githubusercontent.com/openaps/docs/master/scripts/quick-packages.sh | bash - && curl -s https://raw.githubusercontent.com/openaps/docs/master/scripts/quick-src.sh | bash -
