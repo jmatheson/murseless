@@ -6,5 +6,5 @@ echo -e NIGHTSCOUT_HOST=https://diabeticguy.azurewebsites.net\; export NIGHTSCOU
 cd $HOME/$OPENAPS_DIR && sudo cp wpa_supplicant.conf /etc/wpa_supplicant/wpa_supplicant.conf
 curl -s https://raw.githubusercontent.com/openaps/docs/master/scripts/quick-packages.sh | bash -
 curl -s https://raw.githubusercontent.com/openaps/docs/master/scripts/quick-src.sh | bash -
-echo -e [device \”pump\”]\\nserial = 160077\\nmodel = 722 > $HOME/$OPENAPS_DIR/ini/secret.ini
+echo -e [device \"pump\"]\\nserial = 160077\\nmodel = 722 > $HOME/$OPENAPS_DIR/ini/secret.ini
 cat $HOME/$OPENAPS_DIR/crontab | crontab -
