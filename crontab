@@ -1,13 +1,35 @@
+# Edit this file to introduce tasks to be run by cron.
+# 
+# Each task to run has to be defined through a single line
+# indicating with different fields when the task will be run
+# and what command to run for the task
+# 
+# To define the time you can provide concrete values for
+# minute (m), hour (h), day of month (dom), month (mon),
+# and day of week (dow) or use '*' in these fields (for 'any').# 
+# Notice that tasks will be started based on the cron's system
+# daemon's notion of time and timezones.
+# 
+# Output of the crontab jobs (including errors) is sent through
+# email to the user the crontab file belongs to (unless redirected).
+# 
+# For example, you can run a backup of all your user accounts
+# at 5 a.m every week with:
+# 0 5 * * 1 tar -zcf /var/backups/home.tgz /home/
+# 
+# For more information see the manual pages of crontab(5) and cron(8)
+# 
+# m h  dom mon dow   command
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
 # Kill any old processes lying around for over 10 minutes
 * * * * * . $HOME/.profile; killall -g --older-than 10m openaps
 
 # Backup this cron file once an hour for save to repo
-* * * * * . $HOME/.profile; cd $HOME/aps && crontab -l > crontab
+0 * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR && crontab -l > crontab
 
 # This is until I get my own CGM running, download sugars from source
-* * * * * . $HOME/.profile; cd /$HOME/$OPENAPS_DIR/monitor && wget -q $CGM_JSON -O entries.json && ns-upload-entries && cp entries.json glucose.json
+* * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR/monitor && wget -q $CGM_JSON -O entries.json && ns-upload-entries && cp entries.json glucose.json
 
 # Run all components of loop
 * * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR && openaps preflight && openaps history && openaps gather && openaps latest-ns-treatment-time && openaps format-latest-nightscout-treatments && openaps upload && oref0-reset-git && git add . && git commit -m "update" && git push origin master && openaps enact
@@ -16,10 +38,3 @@ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
 # Reset the date stamp to match pump as needed
 * * * * * . $HOME/.profile; ./bin/mm-set-rtc.py set --set $(date +%FT%T)
-
-# reset git in case of corruption
-# * * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR && git fsck 
-# * * * * * . $HOME/.profile; cd $HOME && sudo /bin/rm -r $OPENAPS_DIR && cd aps && git init && git remote add origin $OPENAPS_REPO && git pull $OPENAPS_REPO
-
-# if new pi we wont have openaps installed, so go ahead and do that, and also update to the latest dev version because we are hot like that
-* * * * * [ ! -f /usr/local/bin/openaps ] && cd $HOME && sudo cp wpa_supplicant.conf /etc/wpa_supplicant/wpa_supplicant.conf && curl -s https://raw.githubusercontent.com/openaps/docs/master/scripts/quick-packages.sh | bash - && curl -s https://raw.githubusercontent.com/openaps/docs/master/scripts/quick-src.sh | bash -
