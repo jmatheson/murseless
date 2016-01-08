@@ -20,7 +20,7 @@
   "timeformat": 0, 
   "insulin_action_curve": 3, 
   "audio_bolus_size": 1.0, 
-  "selected_pattern": 0, 
+  "selected_pattern": 1, 
   "patterns_enabled": true, 
   "maxBolus": 20.0, 
   "paradigm_enabled": 1
