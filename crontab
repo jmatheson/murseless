@@ -1,29 +1,4 @@
-# Edit this file to introduce tasks to be run by cron.
-# 
-# Each task to run has to be defined through a single line
-# indicating with different fields when the task will be run
-# and what command to run for the task
-# 
-# To define the time you can provide concrete values for
-# minute (m), hour (h), day of month (dom), month (mon),
-# and day of week (dow) or use '*' in these fields (for 'any').# 
-# Notice that tasks will be started based on the cron's system
-# daemon's notion of time and timezones.
-# 
-# Output of the crontab jobs (including errors) is sent through
-# email to the user the crontab file belongs to (unless redirected).
-# 
-# For example, you can run a backup of all your user accounts
-# at 5 a.m every week with:
-# 0 5 * * 1 tar -zcf /var/backups/home.tgz /home/
-# 
-# For more information see the manual pages of crontab(5) and cron(8)
-# 
-# m h  dom mon dow   command
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-
-# Kill any old processes lying around for over 10 minutes
-* * * * * . $HOME/.profile; killall -g --older-than 10m openaps
 
 # Backup this cron file once an hour for save to repo
 0 * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR && crontab -l > crontab
@@ -31,14 +6,10 @@ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 # This is until I get my own CGM running, download sugars from source
 * * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR/monitor && wget -q $CGM_JSON -O entries.json && ns-upload-entries && cp entries.json glucose.json
 
-# Run all components of loop
-#* * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR && openaps preflight && openaps history && openaps gather && openaps latest-ns-treatment-time && openaps format-latest-nightscout-treatments && openaps upload
-* * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR && openaps retry-loop
+# Loop, backup and upload to NS
+* * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR/monitor && ( ps aux | grep -v grep | grep -q 'openaps retry-loop' && echo OpenAPS already running || openaps retry-loop ) 2>&1 | logger -t openaps-loop
+*/5 * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR/monitor && ( ps aux | grep -v grep | grep -q 'openaps push' && echo github push already running || openaps push ) 2>& 1 | logger -t openaps-push
+*/3 * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR/monitor && ( ps aux | grep -v grep | grep -q 'openaps status-upload' && echo status upload already running || openaps status-upload ) 2>& 1 | logger -t openaps-status-upload
 
-* * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR && oref0-reset-git && git add . && git commit -m "update" && git push origin master
-
-# Then do this when we are ready to go live 
-# && openaps enact
-
-# Reset the date stamp to match pump as needed
-#* * * * * . $HOME/.profile; mm-set-rtc.py set --set $(date +%FT%T)
+# kill any old stuck processes
+* * * * * killall -g --older-than 10m openaps
