@@ -1,15 +1,17 @@
 {
-  "_id": "5694b493dc1aa41c702ad144",
-  "_type": "ResultDailyTotal",
-  "_description": "ResultDailyTotal 2016-01-12T00:00:00 head[5], body[0] op[0x07]",
-  "timestamp": "2016-01-12T00:00:00-08:00",
+  "_id": "56953939dc1aa41c702ad145",
+  "_type": "Prime",
+  "_description": "Prime 2016-01-12T09:32:23 head[5], body[0] op[0x03]",
+  "timestamp": "2016-01-12T09:32:23-08:00",
   "_body": "",
-  "_head": "07000009b0",
-  "valid_date": "2016-01-11",
-  "_date": "0b90",
-  "medtronic": "mm://openaps/mm-format-ns-treatments/ResultDailyTotal",
-  "created_at": "2016-01-12T00:00:00-08:00",
+  "_head": "0300070007",
+  "amount": 0.7,
+  "fixed": 0.7,
+  "type": "fixed",
+  "_date": "1760090c10",
+  "medtronic": "mm://openaps/mm-format-ns-treatments/Prime",
+  "created_at": "2016-01-12T09:32:23-08:00",
   "enteredBy": "openaps://medtronic/722",
   "eventType": "Note",
-  "notes": "ResultDailyTotal 722 "
+  "notes": "Prime 722 "
 }
