@@ -1,29 +1,18 @@
 [
   {
-    "_type": "Model522ResultTotals",
-    "_description": "Model522ResultTotals 2016-01-12T00:00:00 head[1], body[41] op[0x6d]",
-    "timestamp": "2016-01-12T00:00:00-08:00",
-    "_body": "051116f93302000009b005b43b03fc29002803fc2900b01101e42f01682306000101040c00e8000000",
-    "_head": "6d",
-    "_date": "0b90",
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Model522ResultTotals",
-    "created_at": "2016-01-12T00:00:00-08:00",
-    "enteredBy": "openaps://medtronic/722",
-    "eventType": "Note",
-    "notes": "Model522ResultTotals 722 "
-  },
-  {
-    "_type": "ResultDailyTotal",
-    "_description": "ResultDailyTotal 2016-01-12T00:00:00 head[5], body[0] op[0x07]",
-    "timestamp": "2016-01-12T00:00:00-08:00",
+    "_type": "Prime",
+    "_description": "Prime 2016-01-12T09:32:23 head[5], body[0] op[0x03]",
+    "timestamp": "2016-01-12T09:32:23-08:00",
     "_body": "",
-    "_head": "07000009b0",
-    "valid_date": "2016-01-11",
-    "_date": "0b90",
-    "medtronic": "mm://openaps/mm-format-ns-treatments/ResultDailyTotal",
-    "created_at": "2016-01-12T00:00:00-08:00",
+    "_head": "0300070007",
+    "amount": 0.7,
+    "fixed": 0.7,
+    "type": "fixed",
+    "_date": "1760090c10",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Prime",
+    "created_at": "2016-01-12T09:32:23-08:00",
     "enteredBy": "openaps://medtronic/722",
     "eventType": "Note",
-    "notes": "ResultDailyTotal 722 "
+    "notes": "Prime 722 "
   }
 ]
