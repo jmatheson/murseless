@@ -1,6 +1,18 @@
 [
   {
     "_type": "Bolus", 
+    "_description": "Bolus 2016-01-11T16:13:24 head[4], body[0] op[0x01]", 
+    "timestamp": "2016-01-11T16:13:24-08:00", 
+    "_body": "", 
+    "programmed": 1.0, 
+    "_head": "010a0a00", 
+    "amount": 1.0, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "184d300b10"
+  }, 
+  {
+    "_type": "Bolus", 
     "_description": "Bolus 2016-01-11T14:50:28 head[4], body[0] op[0x01]", 
     "timestamp": "2016-01-11T14:50:28-08:00", 
     "_body": "", 
