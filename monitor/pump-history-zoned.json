@@ -1,78 +1,108 @@
 [
   {
-    "_type": "Model522ResultTotals", 
-    "_description": "Model522ResultTotals 2016-01-13T00:00:00 head[1], body[41] op[0x6d]", 
-    "timestamp": "2016-01-13T00:00:00-08:00", 
-    "_body": "0500d094f603000007b805b44a02041a000002041a00000002046400000003000300000c00e8000000", 
-    "_head": "6d", 
-    "_date": "0c90"
-  }, 
-  {
-    "_type": "ResultDailyTotal", 
-    "_description": "ResultDailyTotal 2016-01-13T00:00:00 head[5], body[0] op[0x07]", 
-    "timestamp": "2016-01-13T00:00:00-08:00", 
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-01-13T11:58:53 head[4], body[0] op[0x01]", 
+    "timestamp": "2016-01-13T11:58:53-08:00", 
     "_body": "", 
-    "_head": "07000007b8", 
-    "valid_date": "2016-01-12", 
-    "_date": "0c90"
+    "programmed": 2.0, 
+    "_head": "01141400", 
+    "amount": 2.0, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "357a2b0d10"
   }, 
   {
     "_type": "Bolus", 
-    "_description": "Bolus 2016-01-12T22:34:11 head[4], body[0] op[0x01]", 
-    "timestamp": "2016-01-12T22:34:11-08:00", 
+    "_description": "Bolus 2016-01-13T11:42:43 head[4], body[0] op[0x01]", 
+    "timestamp": "2016-01-13T11:42:43-08:00", 
     "_body": "", 
     "appended": [
       {
         "_type": "UnabsorbedInsulinBolus", 
         "_description": "UnabsorbedInsulinBolus unknown head[5], body[0] op[0x5c]", 
         "_body": "", 
-        "_head": "5c05d0d8d0", 
+        "_head": "5c056c78c0", 
         "data": [
           {
-            "amount": 5.2, 
-            "age": 472
+            "amount": 2.7, 
+            "age": 120
           }
         ], 
         "_date": ""
       }
     ], 
-    "programmed": 1.9, 
+    "programmed": 2.2, 
     "duration": 0, 
-    "amount": 1.9, 
-    "_head": "01131300", 
+    "amount": 2.2, 
+    "_head": "01161600", 
     "type": "normal", 
-    "_date": "0b62360c10"
+    "_date": "2b6a2b0d10"
   }, 
   {
     "unknown_byte[8]": 0, 
     "_type": "BolusWizard", 
-    "bg": 148, 
-    "_byte[5]": 19, 
+    "bg": 0, 
+    "_byte[5]": 0, 
     "unknown_byte[10]": 0, 
-    "_description": "BolusWizard 2016-01-12T22:34:10 head[2], body[13] op[0x5b]", 
-    "timestamp": "2016-01-12T22:34:10-08:00", 
-    "_body": "005009195a1300000000001364", 
+    "_description": "BolusWizard 2016-01-13T11:42:43 head[2], body[13] op[0x5b]", 
+    "timestamp": "2016-01-13T11:42:43-08:00", 
+    "_body": "145009195a0016000000001664", 
+    "bg_target_high": 100, 
+    "sensitivity": 25, 
+    "carb_ratio": 9, 
+    "food_estimate": 2.2, 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.0, 
+    "carb_input": 20, 
+    "_head": "5b00", 
+    "unabsorbed_insulin_count": "??", 
+    "_byte[7]": 0, 
+    "bolus_estimate": 2.2, 
+    "_date": "2b6a0b0d10", 
+    "bg_target_low": 90
+  }, 
+  {
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-01-13T09:48:08 head[4], body[0] op[0x01]", 
+    "timestamp": "2016-01-13T09:48:08-08:00", 
+    "_body": "", 
+    "programmed": 2.7, 
+    "_head": "011b1b00", 
+    "amount": 2.7, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "0870290d10"
+  }, 
+  {
+    "unknown_byte[8]": 0, 
+    "_type": "BolusWizard", 
+    "bg": 168, 
+    "_byte[5]": 27, 
+    "unknown_byte[10]": 0, 
+    "_description": "BolusWizard 2016-01-13T09:48:08 head[2], body[13] op[0x5b]", 
+    "timestamp": "2016-01-13T09:48:08-08:00", 
+    "_body": "005009195a1b00000000001b64", 
     "bg_target_high": 100, 
     "sensitivity": 25, 
     "carb_ratio": 9, 
     "food_estimate": 0.0, 
     "unabsorbed_insulin_total": 0.0, 
-    "correction_estimate": 0.3, 
+    "correction_estimate": 1.1, 
     "carb_input": 0, 
-    "_head": "5b94", 
+    "_head": "5ba8", 
     "unabsorbed_insulin_count": "??", 
     "_byte[7]": 0, 
-    "bolus_estimate": 1.9, 
-    "_date": "0a62160c10", 
+    "bolus_estimate": 2.7, 
+    "_date": "0870090d10", 
     "bg_target_low": 90
   }, 
   {
     "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2016-01-12T22:34:09 head[2], body[0] op[0x0a]", 
-    "timestamp": "2016-01-12T22:34:09-08:00", 
+    "_description": "CalBGForPH 2016-01-13T09:48:06 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-01-13T09:48:06-08:00", 
     "_body": "", 
-    "_head": "0a94", 
-    "amount": 148, 
-    "_date": "0962360c10"
+    "_head": "0aa8", 
+    "amount": 168, 
+    "_date": "0670290d10"
   }
 ]
