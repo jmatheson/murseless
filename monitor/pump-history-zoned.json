@@ -1,5 +1,33 @@
 [
   {
+    "_type": "ClearAlarm", 
+    "_description": "ClearAlarm 2016-01-15T13:48:19 head[2], body[0] op[0x0c]", 
+    "timestamp": "2016-01-15T13:48:19-08:00", 
+    "_body": "", 
+    "_head": "0c04", 
+    "_date": "13700d0f10"
+  }, 
+  {
+    "_type": "AlarmPump", 
+    "_description": "AlarmPump 2016-01-15T13:48:09 head[4], body[0] op[0x06]", 
+    "timestamp": "2016-01-15T13:48:09-08:00", 
+    "_body": "", 
+    "_head": "06040b1c", 
+    "_date": "09704d4f10"
+  }, 
+  {
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-01-15T13:45:25 head[4], body[0] op[0x01]", 
+    "timestamp": "2016-01-15T13:45:25-08:00", 
+    "_body": "", 
+    "programmed": 6.0, 
+    "_head": "013c2800", 
+    "amount": 4.0, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "196d2d0f10"
+  }, 
+  {
     "_type": "Bolus", 
     "_description": "Bolus 2016-01-15T09:20:16 head[4], body[0] op[0x01]", 
     "timestamp": "2016-01-15T09:20:16-08:00", 
