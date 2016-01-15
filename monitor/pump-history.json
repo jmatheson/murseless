@@ -1,5 +1,36 @@
 [
   {
+    "programmed": 10.0, 
+    "_type": "Bolus", 
+    "type": "normal", 
+    "_description": "Bolus 2016-01-15T14:05:42 head[4], body[0] op[0x01]", 
+    "duration": 0, 
+    "timestamp": "2016-01-15T14:05:42", 
+    "_body": "", 
+    "_head": "01646400", 
+    "amount": 10.0, 
+    "_date": "2a452e0f10"
+  }, 
+  {
+    "_type": "Prime", 
+    "type": "manual", 
+    "_description": "Prime 2016-01-15T14:04:51 head[5], body[0] op[0x03]", 
+    "timestamp": "2016-01-15T14:04:51", 
+    "_body": "", 
+    "fixed": 0.0, 
+    "_head": "0300000000", 
+    "amount": 0.0, 
+    "_date": "33442e0f10"
+  }, 
+  {
+    "_type": "Rewind", 
+    "_description": "Rewind 2016-01-15T14:01:34 head[2], body[0] op[0x21]", 
+    "timestamp": "2016-01-15T14:01:34", 
+    "_body": "", 
+    "_head": "2100", 
+    "_date": "22410e0f10"
+  }, 
+  {
     "_type": "ClearAlarm", 
     "_description": "ClearAlarm 2016-01-15T13:48:19 head[2], body[0] op[0x0c]", 
     "timestamp": "2016-01-15T13:48:19", 
