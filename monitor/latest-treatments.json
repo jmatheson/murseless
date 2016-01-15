@@ -1,15 +1,23 @@
 {
-  "_id": "56992152d61eb2583a393d87",
-  "_type": "LowReservoir",
-  "_description": "LowReservoir 2016-01-15T08:39:04 head[2], body[0] op[0x34]",
-  "timestamp": "2016-01-15T08:39:04-08:00",
-  "_body": "",
-  "_head": "3400",
-  "amount": 0,
-  "_date": "0467080f10",
-  "medtronic": "mm://openaps/mm-format-ns-treatments/LowReservoir",
-  "created_at": "2016-01-15T08:39:04-08:00",
-  "enteredBy": "openaps://medtronic/722",
-  "eventType": "Note",
-  "notes": "LowReservoir 722 "
+  "_id": "56992bd0d61eb2583a393d8a",
+  "duration": "0",
+  "bolus": {
+    "_type": "Bolus",
+    "_description": "Bolus 2016-01-15T09:20:16 head[4], body[0] op[0x01]",
+    "timestamp": "2016-01-15T09:20:16-08:00",
+    "_body": "",
+    "programmed": 4,
+    "_head": "01282800",
+    "amount": 4,
+    "duration": 0,
+    "type": "normal",
+    "_date": "1054290f10"
+  },
+  "timestamp": "2016-01-15T09:20:16-08:00",
+  "created_at": "2016-01-15T09:20:16-08:00",
+  "eventType": "Correction Bolus",
+  "insulin": "4",
+  "notes": "Normal bolus (solo, no bolus wizard).\nProgrammed bolus 4\nDelivered bolus 4\nPercent delivered:  100%",
+  "medtronic": "mm://openaps/mm-format-ns-treatments/Correction Bolus",
+  "enteredBy": "openaps://medtronic/722"
 }
