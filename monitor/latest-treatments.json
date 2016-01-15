@@ -1,14 +1,23 @@
 {
-  "_id": "569969b9d61eb2583a393d8b",
-  "_type": "ClearAlarm",
-  "_description": "ClearAlarm 2016-01-15T13:48:19 head[2], body[0] op[0x0c]",
-  "timestamp": "2016-01-15T13:48:19-08:00",
-  "_body": "",
-  "_head": "0c04",
-  "_date": "13700d0f10",
-  "medtronic": "mm://openaps/mm-format-ns-treatments/ClearAlarm",
-  "created_at": "2016-01-15T13:48:19-08:00",
-  "enteredBy": "openaps://medtronic/722",
-  "eventType": "Note",
-  "notes": "ClearAlarm 722 "
+  "_id": "56997290d61eb2583a393d8e",
+  "duration": "0",
+  "bolus": {
+    "_type": "Bolus",
+    "_description": "Bolus 2016-01-15T14:05:42 head[4], body[0] op[0x01]",
+    "timestamp": "2016-01-15T14:05:42-08:00",
+    "_body": "",
+    "programmed": 10,
+    "_head": "01646400",
+    "amount": 10,
+    "duration": 0,
+    "type": "normal",
+    "_date": "2a452e0f10"
+  },
+  "timestamp": "2016-01-15T14:05:42-08:00",
+  "created_at": "2016-01-15T14:05:42-08:00",
+  "eventType": "Correction Bolus",
+  "insulin": "10",
+  "notes": "Normal bolus (solo, no bolus wizard).\nProgrammed bolus 10\nDelivered bolus 10\nPercent delivered:  100%",
+  "medtronic": "mm://openaps/mm-format-ns-treatments/Correction Bolus",
+  "enteredBy": "openaps://medtronic/722"
 }
