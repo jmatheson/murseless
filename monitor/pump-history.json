@@ -1,5 +1,64 @@
 [
   {
+    "_type": "BolusWizard", 
+    "bg": 363, 
+    "bg_target_high": 100, 
+    "correction_estimate": 0.9, 
+    "unknown_byte[10]": 0, 
+    "_description": "BolusWizard 2016-01-15T17:14:54 head[2], body[13] op[0x5b]", 
+    "timestamp": "2016-01-15T17:14:54", 
+    "_body": "085109195a6908000000007164", 
+    "carb_input": 8, 
+    "_head": "5b6b", 
+    "unabsorbed_insulin_total": 0.0, 
+    "_byte[5]": 105, 
+    "unabsorbed_insulin_count": "??", 
+    "_byte[7]": 0, 
+    "_date": "364e110f10", 
+    "bolus_estimate": 11.3, 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[14], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 0.7, 
+            "age": 182
+          }, 
+          {
+            "amount": 2.9, 
+            "age": 192
+          }, 
+          {
+            "amount": 4.0, 
+            "age": 212
+          }, 
+          {
+            "amount": 1.45, 
+            "age": 472
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c0e1cb6c074c0c1a0d4c03ad8d0", 
+        "_date": ""
+      }
+    ], 
+    "unknown_byte[8]": 0, 
+    "carb_ratio": 9, 
+    "food_estimate": 0.8, 
+    "bg_target_low": 90, 
+    "sensitivity": 25
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-01-15T17:14:43 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-01-15T17:14:43", 
+    "_body": "", 
+    "_head": "0a6b", 
+    "amount": 363, 
+    "_date": "2b4e310f90"
+  }, 
+  {
     "programmed": 10.0, 
     "_type": "Bolus", 
     "type": "normal", 
@@ -57,42 +116,5 @@
     "_head": "013c2800", 
     "amount": 4.0, 
     "_date": "196d2d0f10"
-  }, 
-  {
-    "programmed": 4.0, 
-    "_type": "Bolus", 
-    "type": "normal", 
-    "_description": "Bolus 2016-01-15T09:20:16 head[4], body[0] op[0x01]", 
-    "duration": 0, 
-    "timestamp": "2016-01-15T09:20:16", 
-    "_body": "", 
-    "_head": "01282800", 
-    "amount": 4.0, 
-    "_date": "1054290f10"
-  }, 
-  {
-    "_type": "LowReservoir", 
-    "_description": "LowReservoir 2016-01-15T08:39:04 head[2], body[0] op[0x34]", 
-    "timestamp": "2016-01-15T08:39:04", 
-    "_body": "", 
-    "_head": "3400", 
-    "amount": 0.0, 
-    "_date": "0467080f10"
-  }, 
-  {
-    "_type": "Battery", 
-    "_description": "Battery 2016-01-15T08:39:03 head[2], body[0] op[0x1a]", 
-    "timestamp": "2016-01-15T08:39:03", 
-    "_body": "", 
-    "_head": "1a01", 
-    "_date": "0367080f10"
-  }, 
-  {
-    "_type": "Battery", 
-    "_description": "Battery 2016-01-15T08:38:42 head[2], body[0] op[0x1a]", 
-    "timestamp": "2016-01-15T08:38:42", 
-    "_body": "", 
-    "_head": "1a00", 
-    "_date": "2a66080f10"
   }
 ]
