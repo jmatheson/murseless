@@ -1,5 +1,85 @@
 [
   {
+    "carbs": "8",
+    "ratio": "9",
+    "bg": "363",
+    "glucose": "363",
+    "glucoseType": "BolusWizard",
+    "wizard": {
+      "correction_estimate": 0.9,
+      "unknown_byte[10]": 0,
+      "_description": "BolusWizard 2016-01-15T17:14:54 head[2], body[13] op[0x5b]",
+      "bg_target_low": 90,
+      "_body": "085109195a6908000000007164",
+      "_byte[5]": 105,
+      "_head": "5b6b",
+      "_byte[7]": 0,
+      "bolus_estimate": 11.3,
+      "appended": [
+        {
+          "_type": "UnabsorbedInsulinBolus",
+          "_description": "UnabsorbedInsulinBolus unknown head[14], body[0] op[0x5c]",
+          "_body": "",
+          "_head": "5c0e1cb6c074c0c1a0d4c03ad8d0",
+          "data": [
+            {
+              "amount": 0.7,
+              "age": 182
+            },
+            {
+              "amount": 2.9,
+              "age": 192
+            },
+            {
+              "amount": 4,
+              "age": 212
+            },
+            {
+              "amount": 1.45,
+              "age": 472
+            }
+          ],
+          "_date": ""
+        }
+      ],
+      "food_estimate": 0.8,
+      "carb_input": 8,
+      "sensitivity": 25,
+      "_type": "BolusWizard",
+      "bg": 363,
+      "timestamp": "2016-01-15T17:14:54-08:00",
+      "bg_target_high": 100,
+      "unabsorbed_insulin_total": 0,
+      "unabsorbed_insulin_count": "??",
+      "_date": "364e110f10",
+      "unknown_byte[8]": 0,
+      "carb_ratio": 9
+    },
+    "timestamp": "2016-01-15T17:14:54-08:00",
+    "created_at": "2016-01-15T17:14:54-08:00",
+    "eventType": "Carb Correction",
+    "insulin": 0,
+    "notes": "Food estimate 0.8\nCorrection estimate 0.9\nBolus estimate 11.3\nTarget low 90\nTarget high 100\nHypothetical glucose delta 0\nGlucose was: 363",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Carb Correction",
+    "enteredBy": "openaps://medtronic/722"
+  },
+  {
+    "_type": "CalBGForPH",
+    "_description": "CalBGForPH 2016-01-15T17:14:43 head[2], body[0] op[0x0a]",
+    "timestamp": "2016-01-15T17:14:43-08:00",
+    "_body": "",
+    "_head": "0a6b",
+    "amount": 363,
+    "_date": "2b4e310f90",
+    "eventType": "<none>",
+    "glucose": 363,
+    "glucoseType": "Finger",
+    "notes": "Pump received finger stick.",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH",
+    "created_at": "2016-01-15T17:14:43-08:00",
+    "enteredBy": "openaps://medtronic/722"
+  },
+  {
     "duration": "0",
     "bolus": {
       "_type": "Bolus",
@@ -97,67 +177,5 @@
     "notes": "Normal bolus (solo, no bolus wizard).\nProgrammed bolus 6\nDelivered bolus 4\nPercent delivered:  66.66666666666666%",
     "medtronic": "mm://openaps/mm-format-ns-treatments/Correction Bolus",
     "enteredBy": "openaps://medtronic/722"
-  },
-  {
-    "duration": "0",
-    "bolus": {
-      "_type": "Bolus",
-      "_description": "Bolus 2016-01-15T09:20:16 head[4], body[0] op[0x01]",
-      "timestamp": "2016-01-15T09:20:16-08:00",
-      "_body": "",
-      "programmed": 4,
-      "_head": "01282800",
-      "amount": 4,
-      "duration": 0,
-      "type": "normal",
-      "_date": "1054290f10"
-    },
-    "timestamp": "2016-01-15T09:20:16-08:00",
-    "created_at": "2016-01-15T09:20:16-08:00",
-    "eventType": "Correction Bolus",
-    "insulin": "4",
-    "notes": "Normal bolus (solo, no bolus wizard).\nProgrammed bolus 4\nDelivered bolus 4\nPercent delivered:  100%",
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Correction Bolus",
-    "enteredBy": "openaps://medtronic/722"
-  },
-  {
-    "_type": "LowReservoir",
-    "_description": "LowReservoir 2016-01-15T08:39:04 head[2], body[0] op[0x34]",
-    "timestamp": "2016-01-15T08:39:04-08:00",
-    "_body": "",
-    "_head": "3400",
-    "amount": 0,
-    "_date": "0467080f10",
-    "medtronic": "mm://openaps/mm-format-ns-treatments/LowReservoir",
-    "created_at": "2016-01-15T08:39:04-08:00",
-    "enteredBy": "openaps://medtronic/722",
-    "eventType": "Note",
-    "notes": "LowReservoir 722 "
-  },
-  {
-    "_type": "Battery",
-    "_description": "Battery 2016-01-15T08:39:03 head[2], body[0] op[0x1a]",
-    "timestamp": "2016-01-15T08:39:03-08:00",
-    "_body": "",
-    "_head": "1a01",
-    "_date": "0367080f10",
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Battery",
-    "created_at": "2016-01-15T08:39:03-08:00",
-    "enteredBy": "openaps://medtronic/722",
-    "eventType": "Note",
-    "notes": "Battery 722 "
-  },
-  {
-    "_type": "Battery",
-    "_description": "Battery 2016-01-15T08:38:42 head[2], body[0] op[0x1a]",
-    "timestamp": "2016-01-15T08:38:42-08:00",
-    "_body": "",
-    "_head": "1a00",
-    "_date": "2a66080f10",
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Battery",
-    "created_at": "2016-01-15T08:38:42-08:00",
-    "enteredBy": "openaps://medtronic/722",
-    "eventType": "Note",
-    "notes": "Battery 722 "
   }
 ]
