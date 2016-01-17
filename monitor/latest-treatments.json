@@ -1,15 +1,23 @@
 {
-  "_id": "569bf2c72ce21fe86998aa08",
-  "_type": "ResultDailyTotal",
-  "_description": "ResultDailyTotal 2016-01-17T00:00:00 head[5], body[0] op[0x07]",
-  "timestamp": "2016-01-17T00:00:00-08:00",
-  "_body": "",
-  "_head": "0700000aec",
-  "valid_date": "2016-01-16",
-  "_date": "1090",
-  "medtronic": "mm://openaps/mm-format-ns-treatments/ResultDailyTotal",
-  "created_at": "2016-01-17T00:00:00-08:00",
-  "enteredBy": "openaps://medtronic/722",
-  "eventType": "Note",
-  "notes": "ResultDailyTotal 722 "
+  "_id": "569c19ab2ce21fe86998aa0e",
+  "duration": "0",
+  "bolus": {
+    "_type": "Bolus",
+    "_description": "Bolus 2016-01-17T13:45:37 head[4], body[0] op[0x01]",
+    "timestamp": "2016-01-17T13:45:37-08:00",
+    "_body": "",
+    "programmed": 6,
+    "_head": "013c3c00",
+    "amount": 6,
+    "duration": 0,
+    "type": "normal",
+    "_date": "256d2d1110"
+  },
+  "timestamp": "2016-01-17T13:45:37-08:00",
+  "created_at": "2016-01-17T13:45:37-08:00",
+  "eventType": "Correction Bolus",
+  "insulin": "6",
+  "notes": "Normal bolus (solo, no bolus wizard).\nProgrammed bolus 6\nDelivered bolus 6\nPercent delivered:  100%",
+  "medtronic": "mm://openaps/mm-format-ns-treatments/Correction Bolus",
+  "enteredBy": "openaps://medtronic/722"
 }
