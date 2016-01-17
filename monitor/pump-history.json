@@ -1,31 +1,14 @@
 [
   {
-    "_type": "Model522ResultTotals", 
-    "_description": "Model522ResultTotals 2016-01-16T00:00:00 head[1], body[41] op[0x6d]", 
-    "timestamp": "2016-01-16T00:00:00", 
-    "_body": "05156b6b6b0100000c4605a22e06a436000806a43600200202c42a03c03805000001040c00e8000000", 
-    "_head": "6d", 
-    "_date": "0f90"
-  }, 
-  {
-    "_type": "ResultDailyTotal", 
-    "_description": "ResultDailyTotal 2016-01-16T00:00:00 head[5], body[0] op[0x07]", 
-    "timestamp": "2016-01-16T00:00:00", 
-    "_body": "", 
-    "valid_date": "2016-01-15", 
-    "_head": "0700000c46", 
-    "_date": "0f90"
-  }, 
-  {
-    "programmed": 6.0, 
+    "programmed": 5.0, 
     "_type": "Bolus", 
     "type": "normal", 
-    "_description": "Bolus 2016-01-15T21:10:33 head[4], body[0] op[0x01]", 
+    "_description": "Bolus 2016-01-16T16:01:24 head[4], body[0] op[0x01]", 
     "duration": 0, 
-    "timestamp": "2016-01-15T21:10:33", 
+    "timestamp": "2016-01-16T16:01:24", 
     "_body": "", 
-    "_head": "013c3c00", 
-    "amount": 6.0, 
-    "_date": "214a350f10"
+    "_head": "01323200", 
+    "amount": 5.0, 
+    "_date": "1841301010"
   }
 ]
