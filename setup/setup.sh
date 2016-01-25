@@ -13,4 +13,5 @@ curl -s https://raw.githubusercontent.com/openaps/docs/master/scripts/quick-pack
 curl -s https://raw.githubusercontent.com/openaps/docs/master/scripts/quick-src.sh | bash -
 echo -e [device \"pump\"]\\nserial = 160077\\nmodel = 722 > $HOME/$OPENAPS_DIR/ini/secret.ini
 echo -e {\\n  \"max_iob\": 20\\n} > $HOME/$OPENAPS_DIR/max_iob.json
+sudo rm $Home/$OPENAPS_DIR/*zip
 cat $HOME/$OPENAPS_DIR/crontab | crontab -
