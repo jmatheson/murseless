@@ -6,44 +6,44 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-01-26T14:43:36.000Z", 
+      "timestamp": "2016-01-26T14:55:53.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 145.4, 
-    "clock": "2016-01-26T06:52:37-08:00"
+    "reservoir": 145.1, 
+    "clock": "2016-01-26T06:55:53-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 89, 
+      "bg": 93, 
       "temp": "absolute", 
-      "snoozeBG": 110, 
-      "timestamp": "2016-01-26T14:47:09.000Z", 
-      "rate": 2.35, 
-      "reason": "Eventual BG 110>=100, temp 0<2.35U/hr", 
-      "eventualBG": 110, 
+      "snoozeBG": 116, 
+      "timestamp": "2016-01-26T14:54:49.000Z", 
+      "rate": 2.85, 
+      "reason": "Eventual BG 116>=100, temp 2.35<2.83U/hr", 
+      "eventualBG": 116, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 95 Deviation: 10 BGI: 0.66", 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 95 Deviation: 15 BGI: 0.6", 
       "tick": "+4"
     }, 
     "iob": {
-      "timestamp": "2016-01-26T14:47:08.000Z", 
+      "timestamp": "2016-01-26T14:54:48.000Z", 
       "bolussnooze": 0, 
-      "basaliob": -0.453, 
-      "iob": -0.453, 
-      "activity": -0.0053
+      "basaliob": -0.302, 
+      "iob": -0.302, 
+      "activity": -0.0048
     }, 
     "enacted": {
-      "bg": 89, 
+      "bg": 93, 
       "temp": "absolute", 
-      "snoozeBG": 110, 
+      "snoozeBG": 116, 
       "recieved": true, 
-      "reason": "Eventual BG 110>=100, temp 0<2.35U/hr", 
-      "rate": 2.35, 
-      "eventualBG": 110, 
-      "timestamp": "2016-01-26T14:47:29.000Z", 
+      "reason": "Eventual BG 116>=100, temp 2.35<2.83U/hr", 
+      "rate": 2.85, 
+      "eventualBG": 116, 
+      "timestamp": "2016-01-26T14:54:54.000Z", 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 95 Deviation: 10 BGI: 0.66", 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 95 Deviation: 15 BGI: 0.6", 
       "tick": "+4"
     }
   }
