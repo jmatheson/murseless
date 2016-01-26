@@ -11,6 +11,7 @@ sudo easy_install openapscontrib.mmhistorytools
 sudo easy_install decocare
 curl -s https://raw.githubusercontent.com/openaps/docs/master/scripts/quick-packages.sh | bash -
 curl -s https://raw.githubusercontent.com/openaps/docs/master/scripts/quick-src.sh | bash -
+curl -s https://gist.githubusercontent.com/scottleibrand/63a8541397378bf9f4b8/raw/4f770fd1ee97880fea532ab133f338d9e57dc5b4/meal-assist-setup.sh | bash -
 echo -e [device \"pump\"]\\nserial = 160077\\nmodel = 722 > $HOME/$OPENAPS_DIR/ini/secret.ini
 echo -e {\\n  \"max_iob\": 20\\n} > $HOME/$OPENAPS_DIR/max_iob.json
 sudo rm $Home/$OPENAPS_DIR/*zip
