@@ -10,7 +10,7 @@ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 # Loop, backup and upload to NS
 * * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR && ( ps aux | grep -v grep | grep -q 'openaps retry-loop' && echo OpenAPS already running || openaps retry-loop ) 2>&1 | logger -t openaps-loop
 */5 * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR && ( ps aux | grep -v grep | grep -q 'openaps push' && echo github push already running || openaps push ) 2>& 1 | logger -t openaps-push
-*/3 * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR && ( ps aux | grep -v grep | grep -q 'openaps status-upload' && echo status upload already running || openaps status-upload ) 2>& 1 | logger -t openaps-status-upload
+*/3 * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR && ( ps aux | grep -v grep | grep -q 'openaps status-upload-new' && echo status upload already running || openaps status-upload-new ) 2>& 1 | logger -t openaps-status-upload
 
 # kill any old stuck processes
 * * * * * killall -g --older-than 10m openaps
