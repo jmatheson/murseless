@@ -16,4 +16,9 @@ echo -e [device \"pump\"]\\nserial = 160077\\nmodel = 722 > $HOME/$OPENAPS_DIR/i
 echo -e {\\n  \"max_iob\": 20\\n} > $HOME/$OPENAPS_DIR/max_iob.json
 sudo rm $Home/$OPENAPS_DIR/*zip
 sudo bash -c 'echo "options 8192cu rtw_power_mgnt=0 rtw_enusbss=0" >> /etc/modprobe.d/8192cu.conf'
+sudo modprobe bcm2708_wdog
+sudo bash -c 'echo "bcm2708_wdog" >> /etc/modules'
+sudo apt-get install watchdog
+sudo update-rc.d watchdog defaults
+sudo service watchdog start
 cat $HOME/$OPENAPS_DIR/crontab | crontab -
