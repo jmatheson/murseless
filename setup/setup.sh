@@ -15,4 +15,5 @@ curl -s https://gist.githubusercontent.com/scottleibrand/63a8541397378bf9f4b8/ra
 echo -e [device \"pump\"]\\nserial = 160077\\nmodel = 722 > $HOME/$OPENAPS_DIR/ini/secret.ini
 echo -e {\\n  \"max_iob\": 20\\n} > $HOME/$OPENAPS_DIR/max_iob.json
 sudo rm $Home/$OPENAPS_DIR/*zip
+sudo bash -c 'echo "options 8192cu rtw_power_mgnt=0 rtw_enusbss=0" >> /etc/modprobe.d/8192cu.conf'
 cat $HOME/$OPENAPS_DIR/crontab | crontab -
