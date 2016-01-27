@@ -14,7 +14,7 @@ curl -s https://raw.githubusercontent.com/openaps/docs/master/scripts/quick-src.
 curl -s https://gist.githubusercontent.com/scottleibrand/63a8541397378bf9f4b8/raw/4f770fd1ee97880fea532ab133f338d9e57dc5b4/meal-assist-setup.sh | bash -
 echo -e [device \"pump\"]\\nserial = 160077\\nmodel = 722 > $HOME/$OPENAPS_DIR/ini/secret.ini
 echo -e {\\n  \"max_iob\": 20\\n} > $HOME/$OPENAPS_DIR/max_iob.json
-sudo rm $Home/$OPENAPS_DIR/*zip
+sudo rm $HOME/$OPENAPS_DIR/*zip
 sudo bash -c 'echo "options 8192cu rtw_power_mgnt=0 rtw_enusbss=0" >> /etc/modprobe.d/8192cu.conf'
 sudo modprobe bcm2708_wdog
 sudo bash -c 'echo "bcm2708_wdog" >> /etc/modules'
@@ -22,4 +22,5 @@ sudo apt-get install watchdog
 sudo update-rc.d watchdog defaults
 cd $HOME && cd $OPENAPS_DIR && sudo cp watchdog.conf /etc/.
 sudo service watchdog start
+sudo cp $HOME/$OPENAPS_DIR/setup/sshd_config /etc/ssh/sshd_config
 cat $HOME/$OPENAPS_DIR/crontab | crontab -
