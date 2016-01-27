@@ -7,45 +7,45 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-01-27T15:28:42.000Z", 
+      "timestamp": "2016-01-27T15:32:41.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 96.5, 
-    "clock": "2016-01-27T07:27:09-08:00"
+    "reservoir": 96.3, 
+    "clock": "2016-01-27T07:31:09-08:00"
   }, 
   "openaps": {
     "suggested": {
       "bg": 98, 
       "temp": "absolute", 
       "snoozeBG": 121, 
-      "timestamp": "2016-01-27T15:26:42.000Z", 
-      "rate": 2.45, 
-      "reason": "Eventual BG 121>=115, no temp, setting 2.43U/hr", 
+      "timestamp": "2016-01-27T15:31:32.000Z", 
+      "rate": 0, 
+      "reason": "Eventual BG 121>95 but Delta +0 < Exp. Delta 0.2; cancel", 
       "eventualBG": 121, 
-      "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 105 Deviation: 11 BGI: 0.64", 
-      "tick": "+1"
+      "duration": 0, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 105 Deviation: 13 BGI: 0.65", 
+      "tick": "+0"
     }, 
     "iob": {
-      "timestamp": "2016-01-27T15:26:42.000Z", 
+      "timestamp": "2016-01-27T15:31:31.000Z", 
       "bolussnooze": 0, 
-      "basaliob": -0.483, 
-      "iob": -0.483, 
-      "activity": -0.0051
+      "basaliob": -0.407, 
+      "iob": -0.407, 
+      "activity": -0.0052
     }, 
     "enacted": {
       "bg": 98, 
       "temp": "absolute", 
       "snoozeBG": 121, 
       "recieved": true, 
-      "reason": "Eventual BG 121>=115, no temp, setting 2.43U/hr", 
-      "rate": 2.45, 
+      "reason": "Eventual BG 121>95 but Delta +0 < Exp. Delta 0.2; cancel", 
+      "rate": 0, 
       "eventualBG": 121, 
-      "timestamp": "2016-01-27T15:27:00.000Z", 
-      "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 105 Deviation: 11 BGI: 0.64", 
-      "tick": "+1"
+      "timestamp": "2016-01-27T15:31:50.000Z", 
+      "duration": 0, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 105 Deviation: 13 BGI: 0.65", 
+      "tick": "+0"
     }
   }
 }
