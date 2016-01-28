@@ -1,0 +1,51 @@
+{
+  "device": "openaps://raspberrypi", 
+  "pump": {
+    "battery": {
+      "status": "normal", 
+      "voltage": 1.2
+    }, 
+    "status": {
+      "status": "normal", 
+      "timestamp": "2016-01-28T14:13:45.000Z", 
+      "bolusing": false, 
+      "suspended": false
+    }, 
+    "reservoir": 61, 
+    "clock": "2016-01-28T06:12:09-08:00"
+  }, 
+  "openaps": {
+    "suggested": {
+      "bg": 80, 
+      "temp": "absolute", 
+      "snoozeBG": 81, 
+      "timestamp": "2016-01-28T14:12:08.000Z", 
+      "rate": 0, 
+      "reason": "Eventual BG 81<95, setting -2.69U/hr", 
+      "eventualBG": 81, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 105 Deviation: -11 BGI: 1.14", 
+      "tick": -3
+    }, 
+    "iob": {
+      "timestamp": "2016-01-28T14:12:08.000Z", 
+      "bolussnooze": 0, 
+      "basaliob": -0.469, 
+      "iob": -0.469, 
+      "activity": -0.0091
+    }, 
+    "enacted": {
+      "bg": 80, 
+      "temp": "absolute", 
+      "snoozeBG": 81, 
+      "recieved": true, 
+      "reason": "Eventual BG 81<95, setting -2.69U/hr", 
+      "rate": 0, 
+      "eventualBG": 81, 
+      "timestamp": "2016-01-28T14:12:27.000Z", 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 105 Deviation: -11 BGI: 1.14", 
+      "tick": -3
+    }
+  }
+}
