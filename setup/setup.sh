@@ -22,5 +22,4 @@ sudo apt-get install watchdog
 sudo update-rc.d watchdog defaults
 cd $HOME && cd $OPENAPS_DIR && sudo cp watchdog.conf /etc/.
 sudo service watchdog start
-sudo cp $HOME/$OPENAPS_DIR/setup/sshd_config /etc/ssh/sshd_config
 cat $HOME/$OPENAPS_DIR/crontab | crontab -
