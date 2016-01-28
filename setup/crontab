@@ -1,0 +1,18 @@
+MAILTO=""
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+# Backup this cron file once an hour for save to repo
+0 * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR && crontab -l > crontab
+
+# This is until I get my own CGM running, download sugars from source
+#* * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR/monitor && wget -q $CGM_JSON -O glucose.json
+
+# Loop, backup and upload to NS
+* * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR && ( ps aux | grep -v grep | grep -q 'openaps retry-loop' && echo OpenAPS already running || openaps retry-loop ) 2>&1 | logger -t openaps-loop
+*/5 * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR && ( ps aux | grep -v grep | grep -q 'openaps push' && echo github push already running || openaps push ) 2>& 1 | logger -t openaps-push
+1 * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR && ( ps aux | grep -v grep | grep -q 'openaps push-hotspot' && echo github push already running || openaps push-hotspot ) 2>& 1 | logger -t openaps-push
+*/3 * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR && ( ps aux | grep -v grep | grep -q 'openaps status-upload' && echo status upload already running || openaps status-upload ) 2>& 1 | logger -t openaps-status-upload
+*/10 * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR && (openaps format-ns-profile ) 2>& 1 | logger -t openaps-format-ns-profile
+
+# kill any old stuck processes
+* * * * * killall -g --older-than 10m openaps
