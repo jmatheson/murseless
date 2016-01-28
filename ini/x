@@ -1,4 +1,0 @@
-[device "ns-upload"]
-fields = type report
-cmd = ns-upload
-args = https://diabeticguy.azurewebsites.net 7defc6888819180432736ddab3a77c730cd4febe treatments.json monitor/upload-treatments.json
