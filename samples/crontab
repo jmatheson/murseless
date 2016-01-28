@@ -1,7 +1,0 @@
-NIGHTSCOUT_HOST=https://YOURURL.azurewebsites.net
-API_SECRET=YOUR-HASHED-SECRET-KEY
-PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-* * * * * killall -g --older-than 10m openaps
-* * * * * cd /home/pi/aps && oref0-reset-git
-* * * * * cd /home/pi/aps && ( ps aux | grep -v grep | grep -q 'openaps ' && echo OpenAPS already running || openaps upload ) 2>&1 | tee -a /var/log/openaps/uploader.log
-* * * * * cd /home/pi/aps && git push origin master
