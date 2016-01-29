@@ -11,7 +11,7 @@ These steps will help you when you need to get running if you are setting up the
 * Log in to your pi ```ssh pi@raspberrypi.local``` from your laptop/desktop computer using the Terminal program (assuming it is on the same network as your Pi)
 * Set timezone by typing in```sudo raspi-config``` and then follow the menu's to set your Timezone. Save when done.
 * Run the following command to grab a sample .profile that you will edit with your own private information. Run ```curl -s https://gist.githubusercontent.com/jmatheson/755891b12ce051bde10c/raw/9b059c2a748813c7af44ecaeeeccd1c3177ee5ce/.profile```
-* Create your .profile that will contain your private environment variables needed. ```pico .profile```. Then copy and paste in 
+* Now edit the file and update with all of your information per the instructions ```nano .profile```. 
 * Run ```curl -s https://gist.githubusercontent.com/jmatheson/f47bf446450598e714a8/raw/9863e425a7dd7a0848f9714a79236c29e3a50ac2/setup.sh | bash -``` which will install everything else we need. 
 
 NOTE: If you make edits to any files on github.com in this repo, be sure to pull them down to your local pi so there are no conflicts for backing up your pi. Use something like: ```git pull http://github.com/jmatheson/openaps```
