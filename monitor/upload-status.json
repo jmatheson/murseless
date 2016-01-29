@@ -3,16 +3,16 @@
   "pump": {
     "battery": {
       "status": "normal", 
-      "voltage": 1.55
+      "voltage": 1.54
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-01-29T11:54:43.000Z", 
+      "timestamp": "2016-01-29T12:06:01.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 19.6, 
-    "clock": "2016-01-29T03:53:10-08:00"
+    "clock": "2016-01-29T04:04:21-08:00"
   }, 
   "openaps": {
     "suggested": {
