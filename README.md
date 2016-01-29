@@ -10,14 +10,14 @@ Initial Setup (one time only)
 * Set up Nightscout using Heroku [ http://www.nightscout.info/wiki/labs/how-to-heroku]. We want Heroku, not Azure.
 * Connect your Dexcom G5 to your Nightscout instance [http://www.nightscout.info/wiki/welcome/nightscout-with-ios-and-dexcom-share/nightscout-bridge-for-dexcom-g5]
 
-Format SD Card (Mac instructions, one time and then every time your SD card get corrupted)
+Format SD Card (Mac instructions, Each time you start with a new Micro SD card or one that had been get corrupted)
 * Format/Reformat your Micro SD card with SDFormatter [https://www.sdcard.org/downloads/formatter_4/]. Select Overrite. It will take 20-30 minutes.
 * Install NOOBS from  [https://www.raspberrypi.org/downloads/noobs/].
 * Unzip NOOBS. Open the NOOBS directory. Copy all the files to your Micro SD Card. Don't simply copy the NOOBS directory itself. That will not work.
 * Plug in your pi with a network cable, mouse and hdmi to a monitor (no keyboard needed). Insert the Micro SD card, then plug the pi into a battery or wall.
 * Finish installing the OS on your pi from there using on screen instructions.
 
-Setup openaps
+Setup openaps (Every time you start with a new Micro SD card)
 * Log in to your pi ```ssh pi@raspberrypi.local``` from your laptop/desktop computer using the Terminal program (assuming it is on the same network as your Pi). The password by defailt is ```raspberry```
 * Set timezone by typing in```sudo raspi-config``` and then follow the menu's to set your Timezone. Save when done.
 * Run ```curl -s https://gist.githubusercontent.com/jmatheson/755891b12ce051bde10c/raw/9b059c2a748813c7af44ecaeeeccd1c3177ee5ce/.profile```. This will grab a sample .profile for setting up your environment variables.
