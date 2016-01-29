@@ -3,7 +3,7 @@
 echo -e machine github.com\\nlogin jmatheson\\npassword holdem55 > $HOME/.netrc
 git config --global user.email "james@onmetheapp.com"
 git config --global user.name "Jim Matheson"
-echo -e NIGHTSCOUT_HOST=https://openaps30.herokuapp.com\; export NIGHTSCOUT_HOST\\nAPI_SECRET=7defc6888819180432736ddab3a77c730cd4febe\; export API_SECRET\\\nOPENAPS_DIR=aps\; export OPENAPS_DIR\\nOPENAPS_REPO=https://github.com/jmatheson/openaps\; export OPENAPS_REPO\\nPUMP_ID=160077\; export PUMP_ID\\nCGM_JSON=https://raw.githubusercontent.com/jasoncalabrese/indy/master/monitor/glucose.json\; export CGM_JSON > $HOME/.profile
+echo -e NIGHTSCOUT_HOST=https://openaps30.herokuapp.com\; export NIGHTSCOUT_HOST\\nAPI_SECRET=7defc6888819180432736ddab3a77c730cd4febe\; export API_SECRET\\nOPENAPS_DIR=aps\; export OPENAPS_DIR\\nOPENAPS_REPO=https://github.com/jmatheson/openaps\; export OPENAPS_REPO\\nPUMP_ID=160077\; export PUMP_ID\\nCGM_JSON=https://raw.githubusercontent.com/jasoncalabrese/indy/master/monitor/glucose.json\; export CGM_JSON\\nPUMP_MODEL=722\; export PUMP_MODEL > $HOME/.profile
 . ~/.profile && cd $HOME && rm -r $OPENAPS_DIR && mkdir $OPENAPS_DIR && cd $OPENAPS_DIR && git init && git remote add origin $OPENAPS_REPO && git pull $OPENAPS_REPO
 . ~/.profile && cd $HOME && mkdir $OPENAPS_DIR && cd $OPENAPS_DIR && git init && git remote add origin $OPENAPS_REPO && git pull $OPENAPS_REPO
 cd $HOME/$OPENAPS_DIR/setup && sudo cp wpa_supplicant.conf /etc/wpa_supplicant/wpa_supplicant.conf
