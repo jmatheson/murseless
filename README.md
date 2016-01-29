@@ -1,5 +1,5 @@
 This is my implementation of OpenAPS. These instructions can help you get setup assuming you want to do the following:
-* Get things setup using a Mac with OSX 10.11 El Capitan
+* You want to format the SD card on a Mac
 * Also assumes you have a Github account and are willing for this to be publically avaiable (or a paid account with at least one repo avail for this project) Start by setting up your own repo on github by following these instructions  [https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/]. You only need to do this once.
 
 These steps will help you when you need to get running if you are setting up the first time OR your SD card took a crap and you need to recreate everything
