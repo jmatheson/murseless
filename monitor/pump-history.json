@@ -5,6 +5,15 @@
     "_description": "TempBasalDuration 2016-01-29T15:32:51 head[2], body[0] op[0x16]", 
     "timestamp": "2016-01-29T15:32:51", 
     "_body": "", 
+    "appended": [
+      {
+        "_body": "", 
+        "_head": "2000", 
+        "_type": "Base", 
+        "_date": "17630f1d10", 
+        "_description": "Base (2016, 1, 29, 15, 35, 23) head[2], body[0] op[0x20]"
+      }
+    ], 
     "_head": "1600", 
     "_date": "33600f5d10"
   }, 
