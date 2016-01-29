@@ -2,7 +2,7 @@ MAILTO=""
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
 # Backup this cron file once an hour for save to repo
-0 * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR && crontab -l > crontab
+0 * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR && crontab -l > /$HOME/$OPENAPS_DIR/setup/crontab
 
 # This is until I get my own CGM running, download sugars from source
 #* * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR/monitor && wget -q $CGM_JSON -O glucose.json
