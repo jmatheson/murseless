@@ -1,5 +1,6 @@
 #!/bin/bash
 
+source /etc/profile
 mkdir $HOME/$OPENAPS_DIR
 cd $HOME/$OPENAPS_DIR && mkdir setup logs ini monitor predict control
 echo -e machine github.com\\nlogin $GITHUB_USERNAME\\npassword $GITHUB_PASSWORD > $HOME/.netrc
