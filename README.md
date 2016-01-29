@@ -10,7 +10,7 @@ Initial Setup (one time only)
 * Set up Nightscout using Heroku [ http://www.nightscout.info/wiki/labs/how-to-heroku]. We want Heroku, not Azure.
 * Connect your Dexcom G5 to your Nightscout instance [http://www.nightscout.info/wiki/welcome/nightscout-with-ios-and-dexcom-share/nightscout-bridge-for-dexcom-g5]
 
-Format SD Card (Mac instructions)
+Format SD Card (Mac instructions, one time and then every time your SD card get corrupted)
 * Format/Reformat your Micro SD card with SDFormatter [https://www.sdcard.org/downloads/formatter_4/]. Select Overrite. It will take 20-30 minutes.
 * Install NOOBS from  [https://www.raspberrypi.org/downloads/noobs/].
 * Unzip NOOBS. Open the NOOBS directory. Copy all the files to your Micro SD Card. Don't simply copy the NOOBS directory itself. That will not work.
