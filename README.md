@@ -17,4 +17,4 @@ Format SD Card
 * Now edit the file and update with all of your information per the instructions ```nano .profile```. Save the file when done. 
 * Run ```curl -s https://gist.githubusercontent.com/jmatheson/f47bf446450598e714a8/raw/9863e425a7dd7a0848f9714a79236c29e3a50ac2/setup.sh | bash -``` which will install everything else we need in one fell swoop!
 
-NOTE: If you make edits to any files on github.com in this repo, be sure to pull them down to your local pi so there are no conflicts for backing up your pi. Use something like: ```git pull http://github.com/jmatheson/openaps```
+NOTE: If you make edits to any files on github.com in your repository, be sure to pull them down to your local pi so there are no conflicts for backing up your pi. Use something like: ```git pull http://github.com/jmatheson/openaps```
