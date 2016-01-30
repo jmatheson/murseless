@@ -1,14 +1,14 @@
 {
-  "_id": "56acecab37663704c846454e",
-  "_type": "PumpSuspend",
-  "_description": "PumpSuspend 2016-01-30T08:58:25 head[2], body[0] op[0x1e]",
-  "timestamp": "2016-01-30T08:58:25-08:00",
+  "_id": "56acefc037663704c846458e",
+  "_type": "PumpResume",
+  "_description": "PumpResume 2016-01-30T09:08:50 head[2], body[0] op[0x1f]",
+  "timestamp": "2016-01-30T09:08:50-08:00",
   "_body": "",
-  "_head": "1e00",
-  "_date": "197a081e10",
-  "medtronic": "mm://openaps/mm-format-ns-treatments/PumpSuspend",
-  "created_at": "2016-01-30T08:58:25-08:00",
+  "_head": "1f00",
+  "_date": "3248091e10",
+  "medtronic": "mm://openaps/mm-format-ns-treatments/PumpResume",
+  "created_at": "2016-01-30T09:08:50-08:00",
   "enteredBy": "openaps://medtronic/722",
   "eventType": "Note",
-  "notes": "PumpSuspend 722 "
+  "notes": "PumpResume 722 "
 }
