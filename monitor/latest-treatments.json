@@ -1,30 +1,14 @@
 {
-  "_id": "56aceb7c37663704c846453f",
-  "duration": 30,
-  "raw_duration": {
-    "_type": "TempBasalDuration",
-    "_description": "TempBasalDuration 2016-01-30T08:55:33 head[2], body[0] op[0x16]",
-    "timestamp": "2016-01-30T08:55:33-08:00",
-    "_body": "",
-    "_head": "1601",
-    "duration (min)": 30,
-    "_date": "2177085e10"
-  },
-  "timestamp": "2016-01-30T08:55:33-08:00",
-  "absolute": 0,
-  "rate": 0,
-  "raw_rate": {
-    "_type": "TempBasal",
-    "temp": "absolute",
-    "_description": "TempBasal 2016-01-30T08:55:33 head[2], body[1] op[0x33]",
-    "timestamp": "2016-01-30T08:55:33-08:00",
-    "_body": "00",
-    "_head": "3300",
-    "rate": 0,
-    "_date": "2177085e10"
-  },
-  "eventType": "Temp Basal",
-  "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
-  "created_at": "2016-01-30T08:55:33-08:00",
-  "enteredBy": "openaps://medtronic/722"
+  "_id": "56acecab37663704c846454e",
+  "_type": "PumpSuspend",
+  "_description": "PumpSuspend 2016-01-30T08:58:25 head[2], body[0] op[0x1e]",
+  "timestamp": "2016-01-30T08:58:25-08:00",
+  "_body": "",
+  "_head": "1e00",
+  "_date": "197a081e10",
+  "medtronic": "mm://openaps/mm-format-ns-treatments/PumpSuspend",
+  "created_at": "2016-01-30T08:58:25-08:00",
+  "enteredBy": "openaps://medtronic/722",
+  "eventType": "Note",
+  "notes": "PumpSuspend 722 "
 }
