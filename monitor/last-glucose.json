@@ -2,6 +2,46 @@
   {
     "direction": "Flat", 
     "trend": 4, 
+    "dateString": "2016-01-30T03:25:21.000Z", 
+    "sgv": 110, 
+    "device": "share2", 
+    "date": 1454124321000, 
+    "_id": "56ac2d7437663704c8463c49", 
+    "type": "sgv"
+  }, 
+  {
+    "direction": "Flat", 
+    "trend": 4, 
+    "dateString": "2016-01-30T03:20:21.000Z", 
+    "sgv": 105, 
+    "device": "share2", 
+    "date": 1454124021000, 
+    "_id": "56ac2c4837663704c8463c3f", 
+    "type": "sgv"
+  }, 
+  {
+    "direction": "Flat", 
+    "trend": 4, 
+    "dateString": "2016-01-30T03:15:21.000Z", 
+    "sgv": 102, 
+    "device": "share2", 
+    "date": 1454123721000, 
+    "_id": "56ac2b1c37663704c8463c35", 
+    "type": "sgv"
+  }, 
+  {
+    "direction": "Flat", 
+    "trend": 4, 
+    "dateString": "2016-01-30T03:10:21.000Z", 
+    "sgv": 101, 
+    "device": "share2", 
+    "date": 1454123421000, 
+    "_id": "56ac29f037663704c8463c29", 
+    "type": "sgv"
+  }, 
+  {
+    "direction": "Flat", 
+    "trend": 4, 
     "dateString": "2016-01-30T03:05:22.000Z", 
     "sgv": 97, 
     "device": "share2", 
@@ -57,46 +97,6 @@
     "device": "share2", 
     "date": 1454121621000, 
     "_id": "56ac22e837663704c8463be5", 
-    "type": "sgv"
-  }, 
-  {
-    "direction": "Flat", 
-    "trend": 4, 
-    "dateString": "2016-01-30T02:35:22.000Z", 
-    "sgv": 93, 
-    "device": "share2", 
-    "date": 1454121322000, 
-    "_id": "56ac21bc37663704c8463bdb", 
-    "type": "sgv"
-  }, 
-  {
-    "direction": "Flat", 
-    "trend": 4, 
-    "dateString": "2016-01-30T02:30:21.000Z", 
-    "sgv": 93, 
-    "device": "share2", 
-    "date": 1454121021000, 
-    "_id": "56ac209037663704c8463bce", 
-    "type": "sgv"
-  }, 
-  {
-    "direction": "Flat", 
-    "trend": 4, 
-    "dateString": "2016-01-30T02:25:21.000Z", 
-    "sgv": 96, 
-    "device": "share2", 
-    "date": 1454120721000, 
-    "_id": "56ac1f6437663704c8463bc3", 
-    "type": "sgv"
-  }, 
-  {
-    "direction": "Flat", 
-    "trend": 4, 
-    "dateString": "2016-01-30T02:20:21.000Z", 
-    "sgv": 96, 
-    "device": "share2", 
-    "date": 1454120421000, 
-    "_id": "56ac1e3837663704c8463bb7", 
     "type": "sgv"
   }
 ]
