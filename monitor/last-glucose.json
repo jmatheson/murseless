@@ -1,5 +1,85 @@
 [
   {
+    "direction": "FortyFiveDown", 
+    "trend": 5, 
+    "dateString": "2016-01-30T05:30:21.000Z", 
+    "sgv": 52, 
+    "device": "share2", 
+    "date": 1454131821000, 
+    "_id": "56ac4ac037663704c8463d8f", 
+    "type": "sgv"
+  }, 
+  {
+    "direction": "FortyFiveDown", 
+    "trend": 5, 
+    "dateString": "2016-01-30T05:25:21.000Z", 
+    "sgv": 59, 
+    "device": "share2", 
+    "date": 1454131521000, 
+    "_id": "56ac499437663704c8463d81", 
+    "type": "sgv"
+  }, 
+  {
+    "direction": "FortyFiveDown", 
+    "trend": 5, 
+    "dateString": "2016-01-30T05:20:20.000Z", 
+    "sgv": 67, 
+    "device": "share2", 
+    "date": 1454131220000, 
+    "_id": "56ac486837663704c8463d73", 
+    "type": "sgv"
+  }, 
+  {
+    "direction": "FortyFiveDown", 
+    "trend": 5, 
+    "dateString": "2016-01-30T05:15:22.000Z", 
+    "sgv": 74, 
+    "device": "share2", 
+    "date": 1454130922000, 
+    "_id": "56ac473c37663704c8463d66", 
+    "type": "sgv"
+  }, 
+  {
+    "direction": "Flat", 
+    "trend": 4, 
+    "dateString": "2016-01-30T05:10:21.000Z", 
+    "sgv": 80, 
+    "device": "share2", 
+    "date": 1454130621000, 
+    "_id": "56ac461037663704c8463d59", 
+    "type": "sgv"
+  }, 
+  {
+    "direction": "Flat", 
+    "trend": 4, 
+    "dateString": "2016-01-30T05:05:22.000Z", 
+    "sgv": 85, 
+    "device": "share2", 
+    "date": 1454130322000, 
+    "_id": "56ac44e437663704c8463d4b", 
+    "type": "sgv"
+  }, 
+  {
+    "direction": "Flat", 
+    "trend": 4, 
+    "dateString": "2016-01-30T05:00:21.000Z", 
+    "sgv": 89, 
+    "device": "share2", 
+    "date": 1454130021000, 
+    "_id": "56ac43b837663704c8463d3d", 
+    "type": "sgv"
+  }, 
+  {
+    "direction": "FortyFiveDown", 
+    "trend": 5, 
+    "dateString": "2016-01-30T04:55:21.000Z", 
+    "sgv": 92, 
+    "device": "share2", 
+    "date": 1454129721000, 
+    "_id": "56ac428c37663704c8463d2f", 
+    "type": "sgv"
+  }, 
+  {
     "direction": "Flat", 
     "trend": 4, 
     "dateString": "2016-01-30T04:50:21.000Z", 
@@ -17,86 +97,6 @@
     "device": "share2", 
     "date": 1454129121000, 
     "_id": "56ac403437663704c8463d15", 
-    "type": "sgv"
-  }, 
-  {
-    "direction": "Flat", 
-    "trend": 4, 
-    "dateString": "2016-01-30T04:40:21.000Z", 
-    "sgv": 106, 
-    "device": "share2", 
-    "date": 1454128821000, 
-    "_id": "56ac3f0837663704c8463d07", 
-    "type": "sgv"
-  }, 
-  {
-    "direction": "Flat", 
-    "trend": 4, 
-    "dateString": "2016-01-30T04:35:21.000Z", 
-    "sgv": 109, 
-    "device": "share2", 
-    "date": 1454128521000, 
-    "_id": "56ac3ddc37663704c8463cfa", 
-    "type": "sgv"
-  }, 
-  {
-    "direction": "Flat", 
-    "trend": 4, 
-    "dateString": "2016-01-30T04:30:23.000Z", 
-    "sgv": 112, 
-    "device": "share2", 
-    "date": 1454128223000, 
-    "_id": "56ac3cb037663704c8463cec", 
-    "type": "sgv"
-  }, 
-  {
-    "direction": "Flat", 
-    "trend": 4, 
-    "dateString": "2016-01-30T04:25:22.000Z", 
-    "sgv": 113, 
-    "device": "share2", 
-    "date": 1454127922000, 
-    "_id": "56ac3b8437663704c8463cdc", 
-    "type": "sgv"
-  }, 
-  {
-    "direction": "Flat", 
-    "trend": 4, 
-    "dateString": "2016-01-30T04:20:22.000Z", 
-    "sgv": 114, 
-    "device": "share2", 
-    "date": 1454127622000, 
-    "_id": "56ac3a5837663704c8463cd2", 
-    "type": "sgv"
-  }, 
-  {
-    "direction": "Flat", 
-    "trend": 4, 
-    "dateString": "2016-01-30T04:15:21.000Z", 
-    "sgv": 114, 
-    "device": "share2", 
-    "date": 1454127321000, 
-    "_id": "56ac392c37663704c8463cc6", 
-    "type": "sgv"
-  }, 
-  {
-    "direction": "Flat", 
-    "trend": 4, 
-    "dateString": "2016-01-30T04:10:21.000Z", 
-    "sgv": 115, 
-    "device": "share2", 
-    "date": 1454127021000, 
-    "_id": "56ac380037663704c8463cb8", 
-    "type": "sgv"
-  }, 
-  {
-    "direction": "Flat", 
-    "trend": 4, 
-    "dateString": "2016-01-30T04:05:21.000Z", 
-    "sgv": 116, 
-    "device": "share2", 
-    "date": 1454126721000, 
-    "_id": "56ac36d437663704c8463cac", 
     "type": "sgv"
   }
 ]
