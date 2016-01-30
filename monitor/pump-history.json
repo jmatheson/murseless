@@ -1,5 +1,13 @@
 [
   {
+    "_type": "PumpSuspend", 
+    "_description": "PumpSuspend 2016-01-30T08:58:25 head[2], body[0] op[0x1e]", 
+    "timestamp": "2016-01-30T08:58:25", 
+    "_body": "", 
+    "_head": "1e00", 
+    "_date": "197a081e10"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-01-30T08:55:33 head[2], body[0] op[0x16]", 
