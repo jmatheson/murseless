@@ -20,7 +20,7 @@ Format SD Card (Mac instructions, Each time you start with a new Micro SD card o
 Setup openaps (Every time you start with a new Micro SD card)
 * Log in to your pi ```ssh pi@raspberrypi.local``` from your laptop/desktop computer using the Terminal program (assuming it is on the same network as your Pi). The password by defailt is ```raspberry```
 * Set timezone by typing in```sudo raspi-config``` and then follow the menu's to set your Timezone. Save when done.
-* Run ```curl -s https://gist.githubusercontent.com/jmatheson/755891b12ce051bde10c/raw/9b059c2a748813c7af44ecaeeeccd1c3177ee5ce/.profile```. This will grab a sample .profile for setting up your environment variables.
+* Run ```curl -s https://gist.githubusercontent.com/jmatheson/755891b12ce051bde10c/raw/9b059c2a748813c7af44ecaeeeccd1c3177ee5ce/.profile | bash -```. This will grab a sample .profile for setting up your environment variables.
 * Now edit the file and update with all of your information per the instructions ```nano .profile```. Save the file when done. 
 * Run ```curl -s https://gist.githubusercontent.com/jmatheson/f47bf446450598e714a8/raw/9863e425a7dd7a0848f9714a79236c29e3a50ac2/setup.sh | bash -``` which will install everything else we need in one fell swoop!
 * You are now looping!
