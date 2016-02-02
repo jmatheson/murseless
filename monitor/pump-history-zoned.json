@@ -1,5 +1,14 @@
 [
   {
+    "_type": "LowReservoir", 
+    "_description": "LowReservoir 2016-02-02T03:07:08 head[2], body[0] op[0x34]", 
+    "timestamp": "2016-02-02T03:07:08-08:00", 
+    "_body": "", 
+    "_head": "3496", 
+    "amount": 15.0, 
+    "_date": "0887030210"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-02-02T02:50:15 head[2], body[0] op[0x16]", 
     "timestamp": "2016-02-02T02:50:15-08:00", 
@@ -271,13 +280,5 @@
     "_body": "", 
     "_head": "1f00", 
     "_date": "069e150110"
-  }, 
-  {
-    "_type": "PumpSuspend", 
-    "_description": "PumpSuspend 2016-02-01T20:58:42 head[2], body[0] op[0x1e]", 
-    "timestamp": "2016-02-01T20:58:42-08:00", 
-    "_body": "", 
-    "_head": "1e00", 
-    "_date": "2aba140110"
   }
 ]
