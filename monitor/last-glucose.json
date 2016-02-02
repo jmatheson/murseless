@@ -2,6 +2,86 @@
   {
     "direction": "Flat", 
     "trend": 4, 
+    "dateString": "2016-02-02T10:00:13.000Z", 
+    "sgv": 171, 
+    "device": "share2", 
+    "date": 1454407213000, 
+    "_id": "56b07e3b37663704c8466c06", 
+    "type": "sgv"
+  }, 
+  {
+    "direction": "Flat", 
+    "trend": 4, 
+    "dateString": "2016-02-02T09:55:13.000Z", 
+    "sgv": 170, 
+    "device": "share2", 
+    "date": 1454406913000, 
+    "_id": "56b07d0a37663704c8466bfe", 
+    "type": "sgv"
+  }, 
+  {
+    "direction": "Flat", 
+    "trend": 4, 
+    "dateString": "2016-02-02T09:50:13.000Z", 
+    "sgv": 168, 
+    "device": "share2", 
+    "date": 1454406613000, 
+    "_id": "56b07bde37663704c8466bf4", 
+    "type": "sgv"
+  }, 
+  {
+    "direction": "Flat", 
+    "trend": 4, 
+    "dateString": "2016-02-02T09:45:14.000Z", 
+    "sgv": 169, 
+    "device": "share2", 
+    "date": 1454406314000, 
+    "_id": "56b07ab237663704c8466bea", 
+    "type": "sgv"
+  }, 
+  {
+    "direction": "Flat", 
+    "trend": 4, 
+    "dateString": "2016-02-02T09:40:13.000Z", 
+    "sgv": 169, 
+    "device": "share2", 
+    "date": 1454406013000, 
+    "_id": "56b0799437663704c8466bdf", 
+    "type": "sgv"
+  }, 
+  {
+    "direction": "Flat", 
+    "trend": 4, 
+    "dateString": "2016-02-02T09:35:13.000Z", 
+    "sgv": 166, 
+    "device": "share2", 
+    "date": 1454405713000, 
+    "_id": "56b0785b37663704c8466bd4", 
+    "type": "sgv"
+  }, 
+  {
+    "direction": "Flat", 
+    "trend": 4, 
+    "dateString": "2016-02-02T09:30:13.000Z", 
+    "sgv": 164, 
+    "device": "share2", 
+    "date": 1454405413000, 
+    "_id": "56b0772e37663704c8466bc9", 
+    "type": "sgv"
+  }, 
+  {
+    "direction": "Flat", 
+    "trend": 4, 
+    "dateString": "2016-02-02T09:25:14.000Z", 
+    "sgv": 161, 
+    "device": "share2", 
+    "date": 1454405114000, 
+    "_id": "56b0761037663704c8466bbe", 
+    "type": "sgv"
+  }, 
+  {
+    "direction": "Flat", 
+    "trend": 4, 
     "dateString": "2016-02-02T09:20:17.000Z", 
     "sgv": 157, 
     "device": "share2", 
@@ -17,86 +97,6 @@
     "device": "share2", 
     "date": 1454404514000, 
     "_id": "56b073b037663704c8466baa", 
-    "type": "sgv"
-  }, 
-  {
-    "direction": "Flat", 
-    "trend": 4, 
-    "dateString": "2016-02-02T09:10:27.000Z", 
-    "sgv": 152, 
-    "device": "share2", 
-    "date": 1454404227000, 
-    "_id": "56b0730a37663704c8466ba4", 
-    "type": "sgv"
-  }, 
-  {
-    "direction": "Flat", 
-    "trend": 4, 
-    "dateString": "2016-02-02T09:05:16.000Z", 
-    "sgv": 149, 
-    "device": "share2", 
-    "date": 1454403916000, 
-    "_id": "56b0715237663704c8466b91", 
-    "type": "sgv"
-  }, 
-  {
-    "direction": "Flat", 
-    "trend": 4, 
-    "dateString": "2016-02-02T09:00:20.000Z", 
-    "sgv": 146, 
-    "device": "share2", 
-    "date": 1454403620000, 
-    "_id": "56b070b237663704c8466b89", 
-    "type": "sgv"
-  }, 
-  {
-    "direction": "Flat", 
-    "trend": 4, 
-    "dateString": "2016-02-02T08:55:16.000Z", 
-    "sgv": 142, 
-    "device": "share2", 
-    "date": 1454403316000, 
-    "_id": "56b06efa37663704c8466b77", 
-    "type": "sgv"
-  }, 
-  {
-    "direction": "Flat", 
-    "trend": 4, 
-    "dateString": "2016-02-02T08:50:16.000Z", 
-    "sgv": 139, 
-    "device": "share2", 
-    "date": 1454403016000, 
-    "_id": "56b06dce37663704c8466b6b", 
-    "type": "sgv"
-  }, 
-  {
-    "direction": "Flat", 
-    "trend": 4, 
-    "dateString": "2016-02-02T08:45:14.000Z", 
-    "sgv": 136, 
-    "device": "share2", 
-    "date": 1454402714000, 
-    "_id": "56b06ca237663704c8466b5f", 
-    "type": "sgv"
-  }, 
-  {
-    "direction": "Flat", 
-    "trend": 4, 
-    "dateString": "2016-02-02T08:40:13.000Z", 
-    "sgv": 134, 
-    "device": "share2", 
-    "date": 1454402413000, 
-    "_id": "56b06b7637663704c8466b50", 
-    "type": "sgv"
-  }, 
-  {
-    "direction": "Flat", 
-    "trend": 4, 
-    "dateString": "2016-02-02T08:35:13.000Z", 
-    "sgv": 132, 
-    "device": "share2", 
-    "date": 1454402113000, 
-    "_id": "56b06a4a37663704c8466b46", 
     "type": "sgv"
   }
 ]
