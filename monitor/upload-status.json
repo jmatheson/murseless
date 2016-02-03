@@ -3,34 +3,34 @@
   "pump": {
     "battery": {
       "status": "normal", 
-      "voltage": 1.43
+      "voltage": 1.44
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-02-03T06:58:04.000Z", 
+      "timestamp": "2016-02-03T07:04:42.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 254.8, 
-    "clock": "2016-02-02T22:56:07-08:00"
+    "reservoir": 254.6, 
+    "clock": "2016-02-02T23:03:08-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 112, 
+      "bg": 114, 
       "temp": "absolute", 
-      "snoozeBG": 94, 
-      "timestamp": "2016-02-03T07:02:56.000Z", 
-      "reason": "94 is in range. No temp required", 
-      "eventualBG": 94, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 16 Target: 97.5 Deviation: 21 BGI: -7.45", 
-      "tick": "+1"
+      "snoozeBG": 104, 
+      "timestamp": "2016-02-03T07:05:23.000Z", 
+      "reason": "104 is in range. No temp required", 
+      "eventualBG": 104, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 16 Target: 97.5 Deviation: 20 BGI: -5.96", 
+      "tick": "+2"
     }, 
     "iob": {
-      "timestamp": "2016-02-03T07:02:56.000Z", 
+      "timestamp": "2016-02-03T07:05:23.000Z", 
       "bolussnooze": 0, 
-      "basaliob": -0.045, 
-      "iob": 1.551, 
-      "activity": 0.0596
+      "basaliob": -0.043, 
+      "iob": 1.205, 
+      "activity": 0.0477
     }, 
     "enacted": {
       "bg": 111, 
