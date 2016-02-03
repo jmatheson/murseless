@@ -1,5 +1,28 @@
 [
   {
+    "unknown_byte[8]": 0, 
+    "_type": "BolusWizard", 
+    "bg": 0, 
+    "_byte[5]": 0, 
+    "unknown_byte[10]": 0, 
+    "_description": "BolusWizard 2016-02-02T19:38:45 head[2], body[13] op[0x5b]", 
+    "timestamp": "2016-02-02T19:38:45-08:00", 
+    "_body": "1e5009195a0021000000002169", 
+    "bg_target_high": 105, 
+    "sensitivity": 25, 
+    "carb_ratio": 9, 
+    "food_estimate": 3.3, 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.0, 
+    "carb_input": 30, 
+    "_head": "5b00", 
+    "unabsorbed_insulin_count": "??", 
+    "_byte[7]": 0, 
+    "bolus_estimate": 3.3, 
+    "_date": "2da6130210", 
+    "bg_target_low": 90
+  }, 
+  {
     "_type": "Prime", 
     "_description": "Prime 2016-02-02T19:16:20 head[5], body[0] op[0x03]", 
     "timestamp": "2016-02-02T19:16:20-08:00", 
