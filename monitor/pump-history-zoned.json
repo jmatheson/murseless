@@ -1,5 +1,13 @@
 [
   {
+    "_type": "PumpSuspend", 
+    "_description": "PumpSuspend 2016-02-02T21:25:51 head[2], body[0] op[0x1e]", 
+    "timestamp": "2016-02-02T21:25:51-08:00", 
+    "_body": "", 
+    "_head": "1e00", 
+    "_date": "3399150210"
+  }, 
+  {
     "_type": "Bolus", 
     "_description": "Bolus 2016-02-02T21:20:49 head[4], body[0] op[0x01]", 
     "timestamp": "2016-02-02T21:20:49-08:00", 
