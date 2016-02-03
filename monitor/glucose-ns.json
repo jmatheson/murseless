@@ -1,0 +1,102 @@
+[
+  {
+    "direction": "Flat", 
+    "trend": 4, 
+    "dateString": "2016-02-03T22:50:14.000Z", 
+    "sgv": 91, 
+    "device": "share2", 
+    "date": 1454539814000, 
+    "_id": "56b2847537663704c84680fc", 
+    "type": "sgv"
+  }, 
+  {
+    "direction": "Flat", 
+    "trend": 4, 
+    "dateString": "2016-02-03T22:45:12.000Z", 
+    "sgv": 91, 
+    "device": "share2", 
+    "date": 1454539512000, 
+    "_id": "56b2834d37663704c84680ed", 
+    "type": "sgv"
+  }, 
+  {
+    "direction": "Flat", 
+    "trend": 4, 
+    "dateString": "2016-02-03T22:40:14.000Z", 
+    "sgv": 91, 
+    "device": "share2", 
+    "date": 1454539214000, 
+    "_id": "56b2821f37663704c84680e0", 
+    "type": "sgv"
+  }, 
+  {
+    "direction": "Flat", 
+    "trend": 4, 
+    "dateString": "2016-02-03T22:35:10.000Z", 
+    "sgv": 89, 
+    "device": "share2", 
+    "date": 1454538910000, 
+    "_id": "56b280f137663704c84680d3", 
+    "type": "sgv"
+  }, 
+  {
+    "direction": "Flat", 
+    "trend": 4, 
+    "dateString": "2016-02-03T22:30:10.000Z", 
+    "sgv": 88, 
+    "device": "share2", 
+    "date": 1454538610000, 
+    "_id": "56b27fc537663704c84680c5", 
+    "type": "sgv"
+  }, 
+  {
+    "direction": "Flat", 
+    "trend": 4, 
+    "dateString": "2016-02-03T22:25:11.000Z", 
+    "sgv": 89, 
+    "device": "share2", 
+    "date": 1454538311000, 
+    "_id": "56b27e9f37663704c84680b9", 
+    "type": "sgv"
+  }, 
+  {
+    "direction": "Flat", 
+    "trend": 4, 
+    "dateString": "2016-02-03T22:20:11.000Z", 
+    "sgv": 89, 
+    "device": "share2", 
+    "date": 1454538011000, 
+    "_id": "56b27d6d37663704c84680a9", 
+    "type": "sgv"
+  }, 
+  {
+    "direction": "Flat", 
+    "trend": 4, 
+    "dateString": "2016-02-03T22:15:12.000Z", 
+    "sgv": 88, 
+    "device": "share2", 
+    "date": 1454537712000, 
+    "_id": "56b27c4137663704c846809b", 
+    "type": "sgv"
+  }, 
+  {
+    "direction": "Flat", 
+    "trend": 4, 
+    "dateString": "2016-02-03T22:10:11.000Z", 
+    "sgv": 88, 
+    "device": "share2", 
+    "date": 1454537411000, 
+    "_id": "56b27b1537663704c846808d", 
+    "type": "sgv"
+  }, 
+  {
+    "direction": "Flat", 
+    "trend": 4, 
+    "dateString": "2016-02-03T22:05:14.000Z", 
+    "sgv": 89, 
+    "device": "share2", 
+    "date": 1454537114000, 
+    "_id": "56b279f937663704c846807d", 
+    "type": "sgv"
+  }
+]
