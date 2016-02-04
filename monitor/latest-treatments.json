@@ -1,29 +1,16 @@
-{
-  "_id": "56b2943037663704c84681bc",
-  "raw_duration": {
-    "_type": "TempBasalDuration",
-    "_description": "TempBasalDuration 2016-02-03T15:56:04 head[2], body[0] op[0x16]",
-    "timestamp": "2016-02-03T15:56:04-08:00",
-    "_body": "",
-    "_head": "1600",
-    "duration (min)": 0,
-    "_date": "04b80f4310"
-  },
-  "timestamp": "2016-02-03T15:56:04-08:00",
-  "absolute": 0,
-  "rate": 0,
-  "raw_rate": {
-    "_type": "TempBasal",
-    "temp": "absolute",
-    "_description": "TempBasal 2016-02-03T15:56:04 head[2], body[1] op[0x33]",
-    "timestamp": "2016-02-03T15:56:04-08:00",
-    "_body": "00",
-    "_head": "3300",
-    "rate": 0,
-    "_date": "04b80f4310"
-  },
-  "eventType": "Temp Basal",
-  "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
-  "created_at": "2016-02-03T15:56:04-08:00",
-  "enteredBy": "openaps://medtronic/722"
-}
+<!DOCTYPE html>
+    <html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style type="text/css">
+        html, body, iframe { margin: 0; padding: 0; height: 100%; }
+        iframe { display: block; width: 100%; border: none; }
+      </style>
+    <title>Application Error</title>
+    </head>
+    <body>
+      <iframe src="//s3.amazonaws.com/heroku_pages/error.html">
+        <p>Application Error</p>
+      </iframe>
+    </body>
+    </html>
