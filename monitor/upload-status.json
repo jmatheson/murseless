@@ -1,5 +1,5 @@
 {
-  "device": "openaps://raspberrypi", 
+  "device": "openaps://murse", 
   "pump": {
     "battery": {
       "status": "normal", 
