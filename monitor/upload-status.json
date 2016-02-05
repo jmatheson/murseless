@@ -7,43 +7,45 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-02-05T21:23:49.000Z", 
+      "timestamp": "2016-02-05T21:29:48.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 119, 
-    "clock": "2016-02-05T13:22:06-08:00"
+    "reservoir": 118.6, 
+    "clock": "2016-02-05T13:28:06-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 149, 
+      "bg": 152, 
       "temp": "absolute", 
-      "snoozeBG": 148, 
-      "timestamp": "2016-02-05T21:22:40.000Z", 
-      "reason": "Eventual BG 189>=105, adj. req. rate:6.1 to maxSafeBasal:4.0, temp 4 >~ req 4U/hr", 
-      "eventualBG": 189, 
-      "mealAssist": "On: Carbs: 50 Boluses: 5.5 Target: 92.5 Deviation: 40 BGI: -5.89", 
-      "tick": "+11"
+      "snoozeBG": 204, 
+      "timestamp": "2016-02-05T21:27:49.000Z", 
+      "rate": 0, 
+      "reason": "Eventual BG 21<90, but Avg. Delta 5.00 > Exp. Delta -3.8; cancel", 
+      "eventualBG": 21, 
+      "duration": 0, 
+      "mealAssist": "Off: Carbs: 50 Boluses: 10.5 Target: 97.5 Deviation: 33 BGI: -5.89", 
+      "tick": "+3"
     }, 
     "iob": {
-      "timestamp": "2016-02-05T21:22:40.000Z", 
-      "bolussnooze": 0, 
-      "basaliob": -0.368, 
-      "iob": 1.638, 
+      "timestamp": "2016-02-05T21:27:48.000Z", 
+      "bolussnooze": 4.881, 
+      "basaliob": -0.039, 
+      "iob": 6.562, 
       "activity": 0.0471
     }, 
     "enacted": {
-      "bg": 127, 
+      "bg": 152, 
       "temp": "absolute", 
-      "snoozeBG": 132, 
+      "snoozeBG": 204, 
       "recieved": true, 
-      "reason": "Eventual BG 179>=105, adj. req. rate:4.9 to maxSafeBasal:4.0, no temp, setting 4U/hr", 
-      "rate": 4, 
-      "eventualBG": 179, 
-      "timestamp": "2016-02-05T21:05:53.000Z", 
-      "duration": 30, 
-      "mealAssist": "On: Carbs: 50 Boluses: 5.5 Target: 92.5 Deviation: 48 BGI: -6.97", 
-      "tick": "+20"
+      "reason": "Eventual BG 21<90, but Avg. Delta 5.00 > Exp. Delta -3.8; cancel", 
+      "rate": 0, 
+      "eventualBG": 21, 
+      "timestamp": "2016-02-05T21:28:07.000Z", 
+      "duration": 0, 
+      "mealAssist": "Off: Carbs: 50 Boluses: 10.5 Target: 97.5 Deviation: 33 BGI: -5.89", 
+      "tick": "+3"
     }
   }
 }
