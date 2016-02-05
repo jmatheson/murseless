@@ -1,5 +1,17 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-02-05T13:14:18 head[4], body[0] op[0x01]", 
+    "timestamp": "2016-02-05T13:14:18-08:00", 
+    "_body": "", 
+    "programmed": 5.0, 
+    "_head": "01323200", 
+    "amount": 5.0, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "128e2d0510"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-02-05T13:04:50 head[2], body[0] op[0x16]", 
     "timestamp": "2016-02-05T13:04:50-08:00", 
