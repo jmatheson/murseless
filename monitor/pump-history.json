@@ -1,5 +1,17 @@
 [
   {
+    "programmed": 5.5, 
+    "_type": "Bolus", 
+    "type": "normal", 
+    "_description": "Bolus 2016-02-05T11:39:40 head[4], body[0] op[0x01]", 
+    "duration": 0, 
+    "timestamp": "2016-02-05T11:39:40", 
+    "_body": "", 
+    "_head": "01373700", 
+    "amount": 5.5, 
+    "_date": "28a72b0510"
+  }, 
+  {
     "_type": "BolusWizard", 
     "bg": 0, 
     "bg_target_high": 105, 
