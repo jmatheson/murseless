@@ -1,6 +1,2 @@
 ini/secret.ini
 ini/TI.ini
-openaps.ini
-control/*
-monitor/*
-predict/*
