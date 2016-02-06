@@ -1,5 +1,5 @@
 ini/secret.ini
-ini/ti.ini
+ini/TI.ini
 openaps.ini
 control/*
 monitor/*
