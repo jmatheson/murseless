@@ -1,7 +1,7 @@
 {
   "low_reservoir_warn_point": 15, 
   "keypad_lock_status": 0, 
-  "maxBasal": 4.0, 
+  "maxBasal": 7.5, 
   "temp_basal": {
     "percent": 100, 
     "type": "Units/hour"
@@ -18,7 +18,7 @@
   "auto_off_duration_hrs": 24, 
   "block_enable": false, 
   "timeformat": 0, 
-  "insulin_action_curve": 3, 
+  "insulin_action_curve": 4, 
   "audio_bolus_size": 1.0, 
   "selected_pattern": 1, 
   "patterns_enabled": true, 
