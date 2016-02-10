@@ -7,11 +7,11 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-02-10T19:27:49.000Z", 
+      "timestamp": "2016-02-10T19:34:56.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 122.2, 
+    "reservoir": 122, 
     "clock": "2016-02-10T11:01:09-08:00"
   }, 
   "openaps": {
@@ -19,14 +19,14 @@
       "bg": 124, 
       "temp": "absolute", 
       "snoozeBG": 91, 
-      "timestamp": "2016-02-10T19:28:06.000Z", 
+      "timestamp": "2016-02-10T19:35:14.000Z", 
       "reason": "Eventual BG 89<90, bolus snooze: eventual BG range 89-91", 
       "eventualBG": 89, 
       "mealAssist": "Off: Carbs: 36 Boluses: 4 Target: 97.5 Deviation: 9 BGI: -3.89", 
-      "tick": -3
+      "tick": "+0"
     }, 
     "iob": {
-      "timestamp": "2016-02-10T19:28:06.000Z", 
+      "timestamp": "2016-02-10T19:35:13.000Z", 
       "bolussnooze": 0.052, 
       "basaliob": 0, 
       "iob": 1.779, 
