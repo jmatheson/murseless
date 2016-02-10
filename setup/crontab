@@ -1,12 +1,9 @@
 MAILTO=""
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
-# Backup this cron file once an hour for save to repo
+# Loop
+#1-59/5,3-59/5 * * * * . $HOME/.profile; killall -g --older-than 5m openaps && cd $HOME/$OPENAPS_DIR && ( ps aux | grep -v grep | grep -q 'openaps loop' && echo OpenAPS already running || openaps loop ) 2>&1 | logger -t openaps-loop
+
+# Backup cron and everything to github hourly
 0 * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR && crontab -l > /$HOME/$OPENAPS_DIR/setup/crontab
-
-# Loop, backup and upload to NS
-1-59/5,3-59/5 * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR && ( ps aux | grep -v grep | grep -q 'openaps loop' && echo OpenAPS already running || openaps loop ) 2>&1 | logger -t openaps-loop
-5 * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR && ( ps aux | grep -v grep | grep -q 'openaps push' && echo github push already running || openaps push ) 2>& 1 | logger -t openaps-push
-
-# kill any old stuck processes
-*/5 * * * * killall -g --older-than 3m openaps
+1 * * * * . $HOME/.profile; cd $HOME/$OPENAPS_DIR && ( ps aux | grep -v grep | grep -q 'openaps push' && echo github push already running || openaps push ) 2>& 1 | logger -t openaps-push
