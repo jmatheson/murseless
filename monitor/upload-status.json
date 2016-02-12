@@ -7,50 +7,50 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-02-12T11:07:50.000Z", 
+      "timestamp": "2016-02-12T11:16:51.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 39.6, 
-    "clock": "2016-02-12T03:05:53-08:00"
+    "reservoir": 39.3, 
+    "clock": "2016-02-12T03:14:52-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 106, 
+      "bg": 105, 
       "temp": "absolute", 
-      "snoozeBG": 105, 
-      "timestamp": "2016-02-12T11:08:10.000Z", 
-      "rate": 1.65, 
-      "reason": "Eventual BG 105>=105, temp 0<1.65U/hr", 
-      "eventualBG": 105, 
-      "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 97.5 Deviation: 1 BGI: -0.39", 
-      "tick": "+0"
+      "snoozeBG": 101, 
+      "timestamp": "2016-02-12T11:17:11.000Z", 
+      "rate": 0, 
+      "reason": "Eventual BG 101>90 but Delta -1 < Exp. Delta -0.4; cancel", 
+      "eventualBG": 101, 
+      "duration": 0, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 97.5 Deviation: 0 BGI: -0.28", 
+      "tick": -1
     }, 
     "iob": {
-      "timestamp": "2016-02-12T11:08:09.000Z", 
+      "timestamp": "2016-02-12T11:17:10.000Z", 
       "bolussnooze": 0, 
-      "basaliob": 0.072, 
-      "iob": 0.072, 
-      "activity": 0.0031
+      "basaliob": 0.16, 
+      "iob": 0.16, 
+      "activity": 0.0022
     }, 
     "enacted": {
       "requested": {
-        "duration": 30, 
-        "rate": 1.65, 
+        "duration": 0, 
+        "rate": 0, 
         "temp": "absolute"
       }, 
-      "bg": 106, 
+      "bg": 105, 
       "temp": "absolute", 
-      "snoozeBG": 105, 
-      "timestamp": "2016-02-12T11:08:22.000Z", 
-      "reason": "Eventual BG 105>=105, temp 0<1.65U/hr", 
-      "rate": 1.625, 
-      "eventualBG": 105, 
+      "snoozeBG": 101, 
+      "timestamp": "2016-02-12T11:17:24.000Z", 
+      "reason": "Eventual BG 101>90 but Delta -1 < Exp. Delta -0.4; cancel", 
+      "rate": 0, 
+      "eventualBG": 101, 
       "recieved": false, 
-      "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 97.5 Deviation: 1 BGI: -0.39", 
-      "tick": "+0"
+      "duration": 0, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 97.5 Deviation: 0 BGI: -0.28", 
+      "tick": -1
     }
   }
 }
